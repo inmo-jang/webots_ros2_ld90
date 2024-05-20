@@ -35,7 +35,18 @@ def generate_launch_description():
         output='screen',
         arguments=['joint_state_broadcaster'] + controller_manager_timeout,
     )
-    ros_control_spawners = [joint_state_broadcaster_spawner]
+    diffdrive_controller_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        output='screen',
+        arguments=['diffdrive_controller'] + controller_manager_timeout,
+    )    
+    ros_control_spawners = [joint_state_broadcaster_spawner, diffdrive_controller_spawner]
+    mappings = [
+        ('/diffdrive_controller/cmd_vel_unstamped', '/cmd_vel'), 
+        ('/diffdrive_controller/odom', '/odom'),
+        ('/LD90/main_lidar', '/scan')
+        ]      
     
     # Create a ROS node interacting with the simulated robot
     robot_description_path = os.path.join(package_dir, 'resource', 'LD90.urdf')
@@ -47,6 +58,7 @@ def generate_launch_description():
            },
            ros2_control_params
        ],
+       remappings=mappings
     )
 
     # Wait for the simulation to be ready to start navigation nodes

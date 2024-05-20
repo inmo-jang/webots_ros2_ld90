@@ -3,8 +3,29 @@ controller_manager:
     update_rate: 50
 
     joint_state_broadcaster:
-      type: joint_state_broadcaster/JointStateBroadcaster    
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    diffdrive_controller:
+      type: diff_drive_controller/DiffDriveController
 
 joint_state_broadcaster:
   ros__parameters:
     joints: ["left_wheel_joint", "right_wheel_joint"]      
+
+diffdrive_controller:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    wheel_separation: 0.392850 # left_wheel과 right_wheel 사이의 거리를 구한 값.
+    wheel_radius: 0.088
+
+    wheel_separation_multiplier: 1.112
+
+    use_stamped_vel: false
+    base_frame_id: "base_link"
+
+    linear:
+      x:
+        has_velocity_limits: true
+        max_velocity: 1.3
