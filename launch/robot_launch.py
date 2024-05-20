@@ -4,7 +4,7 @@ from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory
 from webots_ros2_driver.webots_launcher import WebotsLauncher
 from webots_ros2_driver.webots_controller import WebotsController
-
+from launch_ros.actions import Node
 
 def generate_launch_description():
     package_dir = get_package_share_directory('webots_ros2_ld90')
@@ -15,6 +15,15 @@ def generate_launch_description():
         world=os.path.join(package_dir, 'worlds', 'my_ld90.wbt')
     )
 
+    # Create the robot state publisher
+    robot_state_publisher = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[{
+            'robot_description': '<robot name=""><link name=""/></robot>'
+        }],
+    )
 
     # ROS control spawners
     ros2_control_params = os.path.join(package_dir, 'resource', 'ros2control.yaml')
@@ -23,14 +32,17 @@ def generate_launch_description():
     robot_description_path = os.path.join(package_dir, 'resource', 'LD90.urdf')
     robot_driver = WebotsController(
         robot_name='LD90',
-        parameters=[
-            {'robot_description': robot_description_path},
-            ros2_control_params
-        ]
+       parameters=[
+           {'robot_description': robot_description_path,
+           'set_robot_state_publisher': True
+           },
+           ros2_control_params
+       ],
     )
 
     return LaunchDescription([
         webots,
+        robot_state_publisher,
         robot_driver,
 
         # The following action will kill all nodes once the Webots simulation has exited
