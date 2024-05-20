@@ -1,0 +1,40 @@
+#VRML_SIM R2023b utf8
+# license: Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+# license url: https://cyberbotics.com/webots_assets_license
+# documentation url: https://webots.cloud/run?url=https://github.com/cyberbotics/webots/blob/released/projects/robots/gctronic/e-puck/protos/E-puckDistanceSensor.proto
+# keywords: robot/extension, sensor/distance sensor
+# Distance sensor of the e-puck mobile robot.
+
+PROTO LD90RearDistanceSensor [
+  field SFVec3f    translation  0 0.0 0
+  field SFRotation rotation     0 0 1 0
+  field SFString   name         "ds"
+  field SFInt32    numberOfRays 1         # Is `DistanceSensor.numberOfRays`.
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      DistanceSensor {
+        name IS name
+        lookupTable [
+          0 4095 0.002
+          0.05 2133.33 0.003
+          0.1 1465.73 0.007
+          0.15 601.46 0.0406
+          0.2 383.84 0.01472
+          0.3 234.93 0.0241
+          0.4 158.03 0.0287
+          0.5 120 0.04225
+          0.6 104.09 0.03065
+          0.7 67.19 0.04897
+        ]
+        type "infra-red"
+        numberOfRays IS numberOfRays
+        aperture 0.1        
+      }
+    ]
+    name IS name
+  }
+}
