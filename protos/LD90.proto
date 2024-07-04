@@ -268,7 +268,7 @@ PROTO LD90 [
         ]
         name "left_back_small_wheel"
         boundingObject Sphere {
-          radius 0.0375
+          radius 0.035 #0.0375
           # height 0.02775
         }
         physics Physics {
@@ -295,7 +295,7 @@ PROTO LD90 [
         ]
         name "right_back_small_wheel"
         boundingObject Sphere {
-          radius 0.0375
+          radius 0.035 #0.0375
           # height 0.02775
         }
         physics Physics {

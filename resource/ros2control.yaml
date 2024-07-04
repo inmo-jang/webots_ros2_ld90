@@ -20,7 +20,7 @@ diffdrive_controller:
     wheel_separation: 0.392850 # left_wheel과 right_wheel 사이의 거리를 구한 값.
     wheel_radius: 0.088
 
-    wheel_separation_multiplier: 1.112
+    wheel_separation_multiplier: 1.10469334694 # 쿼터니언 값을 활용하여 Odometry오차 조정.
 
     use_stamped_vel: false
     base_frame_id: "base_link"
