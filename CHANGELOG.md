@@ -9,6 +9,7 @@
 - Two Side Lidars: using RPLidar
 - Front Lidar: using Intel RealSense L515
 - `nav2_params.yaml` made by Group 1 of 2024 class at KAU
+- Rviz config file
 
 ### Changed
 - `ros2control.yaml`: `wheel_separation_multiplier` to improve `/odom`
