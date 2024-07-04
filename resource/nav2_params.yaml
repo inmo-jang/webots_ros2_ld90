@@ -281,7 +281,7 @@ global_costmap:
         z_voxels: 16
         max_obstacle_height: 2.0
         mark_threshold: 0
-        observation_sources: scan side_scan_left side_scan_right
+        observation_sources: scan side_scan_left side_scan_right front_lidar_pointcloud
         scan:
           topic: /scan
           max_obstacle_height: 2.0
@@ -312,6 +312,17 @@ global_costmap:
           raytrace_min_range: 0.4
           obstacle_max_range: 4.5
           obstacle_min_range: 0.4           
+        front_lidar_pointcloud:
+          topic: /LD90/front_lidar/point_cloud
+          max_obstacle_height: 2.0
+          min_obstacle_height: 0.05
+          obstacle_max_range: 5.0
+          obstacle_min_range: 0.4
+          raytrace_max_range: 4.5
+          raytrace_min_range: 0.4
+          clearing: True
+          marking: True      
+          data_type: "PointCloud2"    
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
         map_subscribe_transient_local: True

@@ -1,0 +1,63 @@
+#VRML_SIM R2023b utf8
+# license: Copyright Cyberbotics Ltd. Licensed for use only with Webots.
+# license url: https://cyberbotics.com/webots_assets_license
+# documentation url: https://webots.cloud/run?url=https://github.com/cyberbotics/webots/blob/released/projects/devices/sick/protos/SickLms291.proto
+# keywords: sensor/lidar
+# Model of Sick LMS291 (Lidar device).
+# 'resolution' should be typically 180, 360 or 720 in order to have a precision of respectively 1°, 0.5° and 0.25°
+# template language: javascript
+
+PROTO IntelRealSenseL515 [
+  field SFVec3f    translation 0 0 0
+  field SFRotation rotation    0 0 1 0
+  field SFString   name        "l515"
+  field SFFloat    fieldOfView 1.22173
+  field SFInt32    width       1024       
+  field SFInt32    height      768       
+  field SFFloat    near        0.25
+  field SFFloat    minRange    0.25
+  field SFFloat    maxRange    9.0  
+  field SFFloat    noise       0.0  
+]
+{
+  RangeFinder {
+    translation IS translation
+    rotation IS rotation
+    children [
+      Transform {
+        rotation 0.0 1.0 0.0 1.5708
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.7 0.7 0.7
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              radius 0.0305
+              height 0.026
+            }
+          }  
+        ]
+      }
+    ]
+    name IS name
+    model "Intel L515"
+    fieldOfView IS fieldOfView
+    width IS width
+    height IS height
+    near IS near
+    maxRange IS maxRange
+    minRange IS minRange    
+    noise IS noise
+    boundingObject Pose {
+        rotation 0.0 1.0 0.0 1.5708
+        children [
+          Cylinder  {
+            radius 0.0305
+            height 0.026
+          }   
+        ]
+    }    
+  }
+}

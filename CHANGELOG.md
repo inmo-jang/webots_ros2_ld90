@@ -7,6 +7,7 @@
 - New worlds files: `contest.wbt` that has moving humans & `no-human.wbt` without the humans
 - Map file for the new world: `contest.pgm`
 - Two Side Lidars: using RPLidar
+- Front Lidar: using Intel RealSense L515
 - `nav2_params.yaml` made by Group 1 of 2024 class at KAU
 
 ### Changed

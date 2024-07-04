@@ -4,6 +4,7 @@
 # This is a proto file for Webots for the LDPlatform
 # Extracted from: /home/inmojang/workspace/lecture/assignment/ld90_ws/Omron_LD_ROS_Package/src/ld_visualisation/urdf/LD_90.urdf
 EXTERNPROTO "./SickLms291.proto"
+EXTERNPROTO "./IntelRealSenseL515.proto"
 EXTERNPROTO "./LD90RearDistanceSensor.proto"
 EXTERNPROTO "./RPLidar.proto"
 
@@ -56,6 +57,10 @@ PROTO LD90 [
         minRange 0.35 
         maxRange 5.000000      
       }             
+      IntelRealSenseL515 { # Front Lidar - L515
+        translation 0.33 0 0.35  
+        name "front_lidar"
+      }         
       Pose { # CAD Shape
         rotation 0.577350 0.577350 0.577350 2.094395
         children [
