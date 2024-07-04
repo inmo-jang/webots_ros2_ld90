@@ -5,6 +5,7 @@
 # Extracted from: /home/inmojang/workspace/lecture/assignment/ld90_ws/Omron_LD_ROS_Package/src/ld_visualisation/urdf/LD_90.urdf
 EXTERNPROTO "./SickLms291.proto"
 EXTERNPROTO "./LD90RearDistanceSensor.proto"
+EXTERNPROTO "./RPLidar.proto"
 
 PROTO LD90 [
   field  SFVec3f     translation     0 0 0
@@ -35,6 +36,26 @@ PROTO LD90 [
         rotation 1 0 0 3.141592
         children IS extensionSlotMainLIDAR
       }
+      RPLidar { # Side Lidar Slot (Right)
+        translation 0.0 0.27 0.31
+        rotation -0.57735 -0.57735 -0.57735 2.0944
+        name "side_lidar_right"
+        fieldOfView 3.141592 
+        resolution 180       
+        near 0.35 
+        minRange 0.35 
+        maxRange 5.000000      
+      } 
+      RPLidar { # Side Lidar Slot (Left)
+        translation 0.0 -0.27 0.31        
+        rotation 0.57735 -0.57735 0.57735 2.0944      
+        name "side_lidar_left"
+        fieldOfView 3.141592 
+        resolution 180       
+        near 0.35 
+        minRange 0.35 
+        maxRange 5.000000      
+      }             
       Pose { # CAD Shape
         rotation 0.577350 0.577350 0.577350 2.094395
         children [
