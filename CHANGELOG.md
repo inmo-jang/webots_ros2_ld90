@@ -11,3 +11,4 @@
  
 ### Fixed
 - `LD90.proto`: rear casters' radius (boundingObject) as the robot didn't move
+- `robot_launch.py`: Fixed and finalised ROSifying by following Inmo's lecture. 

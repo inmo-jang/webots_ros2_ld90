@@ -1,6 +1,9 @@
 import os
 import launch
 from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions.path_join_substitution import PathJoinSubstitution
+from launch.substitutions import LaunchConfiguration
 from ament_index_python.packages import get_package_share_directory
 from webots_ros2_driver.webots_launcher import WebotsLauncher
 from webots_ros2_driver.webots_controller import WebotsController
@@ -10,10 +13,13 @@ from launch_ros.actions import Node
 def generate_launch_description():
     package_dir = get_package_share_directory('webots_ros2_ld90')
     
+    world = LaunchConfiguration('world')
+    use_sim_time = LaunchConfiguration('use_sim_time', default=True)
 
     # Start a Webots simulation instance
     webots = WebotsLauncher(
-        world=os.path.join(package_dir, 'worlds', 'my_ld90.wbt')
+        world=PathJoinSubstitution([package_dir, 'worlds', world]),
+        ros2_supervisor=True
     )
 
     # Create the robot state publisher
@@ -24,6 +30,23 @@ def generate_launch_description():
         parameters=[{
             'robot_description': '<robot name=""><link name=""/></robot>'
         }],
+    )
+
+    # wheel_drop_left and right
+    tf_wheel_drop_left = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='wheel_drop_left_to_base_link',
+        output='screen',
+        arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'wheel_drop_left'],
+    )
+
+    tf_wheel_drop_right = Node(
+        package='tf2_ros',
+        executable='static_transform_publisher',
+        name='wheel_drop_right_to_base_link',
+        output='screen',
+        arguments=['0', '0', '0', '0', '0', '0', 'base_link', 'wheel_drop_right'],
     )
 
     # ROS control spawners
@@ -54,6 +77,7 @@ def generate_launch_description():
         robot_name='LD90',
        parameters=[
            {'robot_description': robot_description_path,
+            'use_sim_time': use_sim_time,
            'set_robot_state_publisher': True
            },
            ros2_control_params
@@ -68,8 +92,16 @@ def generate_launch_description():
     )   
 
     return LaunchDescription([
+        DeclareLaunchArgument(
+            'world',
+            default_value='my_ld90.wbt',
+            description='Choose one of the world files from `/webots_ros2_ld90/world` directory'
+        ),   
         webots,
+        webots._supervisor,
         robot_state_publisher,
+        tf_wheel_drop_left,
+        tf_wheel_drop_right,
         robot_driver,
         waiting_nodes,
         # The following action will kill all nodes once the Webots simulation has exited
