@@ -1,0 +1,3677 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/school_furniture/protos/Clock.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/panels/protos/Panel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/GlossyPaint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/kitchen/components/protos/Sink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/conveyors/protos/ConveyorBelt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/CorrugatedMetal.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/PlasticCrate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/manhole/protos/SquareManhole.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/WoodenChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Monitor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/Keyboard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/DesktopComputer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/computers/protos/ComputerMouse.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/telephone/protos/OfficeTelephone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/tools/protos/Wrench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/tools/protos/Hammer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/tools/protos/PlatformCart.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/valves/protos/LeverValve.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Radiator.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/pallet/protos/WoodenPalletStack.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/ThreadMetalPlate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/GalvanizedMetal.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/fire_extinguisher/protos/FireExtinguisher.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/pipes/protos/TJoint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/pipes/protos/LJoint.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/DoorKnob.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/hospital/protos/EmergencyExitSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/street_furniture/protos/ElectricalCabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/RoughPolymer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/obstacles/protos/OilBarrel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/panels/protos/PanelWithTubes.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/RoundTable.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/WorkBarrier.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairs.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairsRail.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Rubber.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/toys/protos/RubberDuck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/advertising_board/protos/AdvertisingBoard.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "../protos/LD90.proto"
+
+WorldInfo {
+  info [
+    "This simulation enables to move around a MiR100 moving in an industrial environment using the keyboard"
+  ]
+  title "Simulation of Mobile Industrial Robotics' MiR100 robot"
+  contactProperties [
+    ContactProperties {
+      material1 "wheel"
+      softCFM 0.0001
+    }
+    ContactProperties {
+      material1 "slope"
+      coulombFriction [
+        0.5
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation -0.4569672084667785 -0.024401927779869294 0.8891487593798384 3.5691912826729086
+  position 63.470380106199215 17.04536605709545 33.15249455903484
+  exposure 1.7
+}
+TexturedBackground {
+  texture "factory"
+}
+Clock {
+  translation 0 -6.489 1.8
+  rotation 0 0 1 1.5708
+}
+Panel {
+  translation -9.49612 6.47029 0.0051231
+  rotation 0 0 1 -1.5707953071795862
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -7.9 6.47029 0.0051231
+  rotation 0 0 1 -1.5707953071795862
+  name "panel_1"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -9.47 4.85 0
+  name "panel_2"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -9.47 3.25 0
+  name "panel(3)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -9.47 1.63 0
+  name "panel(1)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -9.47 0.05 0
+  name "panel(2)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -44.69 -0.16 0
+  name "panel(8)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -44.67 -4.87 0
+  name "panel(6)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -43.53 -2.13 0
+  rotation 0 0 1 -1.5707953071795862
+  name "panel(9)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -41.9196 -2.14578 0
+  rotation 0 0 1 -2.3561953071795863
+  name "panel(5)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -40.4423 -0.667977 0
+  rotation 0 0 1 -2.3561953071795863
+  name "panel(11)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -42.0079 -0.222497 0
+  rotation 0 0 -1 1.8326
+  name "panel(12)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -44.67 -3.27 0
+  rotation 0 0 1 -0.785395307179586
+  name "panel(10)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -44.67 -6.49 0
+  name "panel(7)"
+  size 0.05 1.6 1.7
+}
+Panel {
+  translation -9.47 -1.53 0
+  name "panel(4)"
+  size 0.05 1.6 1.7
+}
+Cabinet {
+  hidden position_6_0 6.724720814005587e-05
+  hidden translation_7 -2.0073291614677493e-05 -6.749362735369857e-10 0
+  hidden rotation_7 0 0 1 6.724720863858829e-05
+  hidden linearVelocity_7 -3.5871517734417424e-19 -1.1102235800635018e-14 -7.5372489097204e-16
+  hidden angularVelocity_7 6.435660617918375e-20 6.2241280655865544e-18 1.0609630348417673e-18
+  hidden position_10_0 -0.00010085932560584339
+  hidden translation_11 -4.5159762963451057e-05 2.2773910535178743e-09 0
+  hidden rotation_11 0 0 -1 0.00010085932384462611
+  hidden linearVelocity_11 2.243849242001142e-18 5.551088346238237e-15 -3.1405203790501664e-16
+  hidden angularVelocity_11 7.475081682509464e-21 -8.082555860238657e-19 4.4246407821699065e-18
+  translation -9.444 5.665 -4.197e-22
+  name "cabinet(5)"
+  rowsHeights [
+    0.24, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.6, 0.4, 0.5
+  ]
+  layout [
+    "RightSidedDoor (1, 1,  1, 3, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 3, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden linearVelocity_7 0 0 -3.687140682863222e-16
+  hidden linearVelocity_15 0 0 -6.759757918582574e-16
+  hidden linearVelocity_23 0 0 -1.720665652002837e-15
+  hidden linearVelocity_31 0 0 -3.687140682863222e-16
+  hidden linearVelocity_39 0 0 -6.759757918582574e-16
+  hidden linearVelocity_47 0 0 -1.720665652002837e-15
+  translation 2.01309 5.34773 -7.01661e-14
+  rotation 0 0 1 3.14159
+  name "cabinet(6)"
+  rowsHeights [
+    0.24, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.8, 0.8
+  ]
+  layout [
+    "Drawer(1, 1, 1, 1 1.5)"
+    "Drawer(1, 2, 1, 1 1.5)"
+    "Drawer(1, 3, 1, 1 1.5)"
+    "Drawer(2, 1, 1, 1 1.5)"
+    "Drawer(2, 2, 1, 1 1.5)"
+    "Drawer(2, 3, 1, 1 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 8.965490366509096e-05
+  hidden translation_7 -3.568265161090333e-05 -1.599562371445984e-09 0
+  hidden rotation_7 0 0 0.9999999999999999 8.965490157797213e-05
+  hidden linearVelocity_7 -6.842469545087821e-17 5.550070338654267e-15 -4.3967285306702334e-16
+  hidden angularVelocity_7 -9.646231045870327e-20 -9.934619324031933e-18 -1.517639867653218e-16
+  hidden position_10_0 -8.965490366353732e-05
+  hidden translation_11 -3.5682651610284984e-05 1.599562371445984e-09 0
+  hidden rotation_11 0 0 -1 8.965490157797213e-05
+  hidden linearVelocity_11 -2.1343654883121274e-16 -2.7723104012123287e-15 -7.537248909720401e-16
+  hidden angularVelocity_11 8.347173475695308e-20 -8.59326124231174e-18 4.73013521132126e-16
+  translation 2.01309 3.68773 -7.01661e-14
+  rotation 0 0 1 3.14159
+  name "cabinet(7)"
+  rowsHeights [
+    0.24, 0.2, 0.2
+  ]
+  columnsWidths [
+    0.8, 0.4, 0.4
+  ]
+  layout [
+    "RightSidedDoor (1, 1,  1, 3, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 3, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Sink {
+  translation -9.27377 6.09349 0.74
+}
+Cabinet {
+  hidden position_6_0 -0.04989603677077781
+  hidden translation_7 0.012406489755004833 -0.0003095815654007017 0
+  hidden rotation_7 0 0 -0.9999999999999999 0.0498960367707818
+  hidden linearVelocity_7 -1.1102637226395786e-14 -2.775547190548765e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 5.0416256222318324e-21 5.047037690879552e-19 1.444582168748786e-18
+  hidden position_10_0 -1.6012683914524746e-05
+  hidden translation_11 0.06479420490866908 0.008586985548870857 0
+  hidden rotation_11 0 0 1 0.2635185196849942
+  hidden linearVelocity_11 -1.1104098188823214e-14 1.387322756880551e-15 -1.6330705971060867e-15
+  hidden angularVelocity_11 1.9669394819004677e-19 -5.2373952799581076e-18 -6.822700842378484e-18
+  translation -9.49 -2.087 0
+  name "cabinet(1)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915679252e-05
+  hidden translation_7 0.0005836399087215552 -6.846955012684841e-07 0
+  hidden rotation_7 0 0 -1 0.0023462932428118645
+  hidden linearVelocity_7 1.1102125465000172e-14 -5.5511176354353784e-15 -1.1933977440390633e-15
+  hidden angularVelocity_7 3.6779888189250244e-22 1.0491726120545906e-19 3.7211602794026373e-19
+  hidden position_10_0 -1.6012683914450685e-05
+  hidden translation_11 0.01140036063846657 0.0002613799842882958 0
+  hidden rotation_11 0 0 1 0.04584665481136362
+  hidden linearVelocity_11 4.5682499133641655e-19 2.7755675309300933e-15 -1.5074497819440802e-15
+  hidden angularVelocity_11 -3.745997399578635e-21 3.9687184565596634e-19 1.6215775684090302e-18
+  translation -9.49 -3.17 0
+  name "cabinet(82)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 0.00788794624477299
+  hidden translation_7 -0.001962106281296873 -7.73853456081941e-06 0
+  hidden rotation_7 0 0 1 0.007887946244788873
+  hidden linearVelocity_7 1.1102579841551515e-14 -2.7755462660618756e-15 -1.6330705971060867e-15
+  hidden angularVelocity_7 3.7698957578832433e-22 1.7885813714507494e-19 -1.2408393716933928e-18
+  hidden position_10_0 -1.6012683914487697e-05
+  hidden translation_11 0.0015259331040976762 4.680389435518517e-06 0
+  hidden rotation_11 0 0 1 0.0061344429133038956
+  hidden linearVelocity_11 1.783246539876857e-16 1.3845416279354269e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 9.550578181279954e-17 1.7657580388316973e-19 6.325625662053922e-16
+  translation -9.49 -1.01 0
+  name "cabinet(83)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.002147463770679185
+  hidden translation_7 0.0005262149121817959 -5.565878263558144e-07 0
+  hidden rotation_7 0 0 -1 0.0021154384467611496
+  hidden linearVelocity_7 2.2204709207582992e-14 5.266129612804473e-21 -1.13058733645806e-15
+  hidden angularVelocity_7 9.922023410302351e-22 2.8550757298382316e-19 -8.828361720516843e-19
+  hidden position_10_0 0.0021999959140150934
+  hidden translation_11 0.0005452569713545487 5.975990394202491e-07 0
+  hidden rotation_11 0 0 1 0.0021919896213200797
+  hidden linearVelocity_11 2.2204607496241055e-14 5.551112129127041e-15 -1.13058733645806e-15
+  hidden angularVelocity_11 -3.74186134261861e-21 1.0736337143552155e-18 5.216932183016177e-19
+  translation -24.15 -3.68 0
+  name "cabinet(2)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.0509926899601323
+  hidden translation_7 0.012670979257484873 -0.0003229306523634401 0
+  hidden rotation_7 0 0 -1 0.05096066502458957
+  hidden linearVelocity_7 -1.6177984938566028e-14 -5.711560289533843e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 -2.4183118422465653e-20 -2.1003096031608777e-18 -2.137161469825696e-14
+  hidden position_10_0 -0.009999904334889658
+  hidden translation_11 -0.0024894262223247965 1.245708159844372e-05 0
+  hidden rotation_11 0 0 -1 0.010007910461284563
+  hidden linearVelocity_11 2.2204584501870393e-14 1.1102226102315041e-14 -9.421561137150501e-16
+  hidden angularVelocity_11 1.7805153451787327e-21 -9.805577473958816e-19 4.400691392115887e-19
+  translation -21.59 -5.91 0
+  name "cabinet(3)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915461846e-05
+  hidden translation_7 0.010269107929838154 -0.00021205939067470148 0
+  hidden rotation_7 0 0 -1 0.0412945816403867
+  hidden linearVelocity_7 2.4266511193426814e-19 -1.110223425608682e-14 -1.0677769288770566e-15
+  hidden angularVelocity_7 -6.162441596111998e-21 -6.986664186247299e-19 -8.61058582604996e-19
+  hidden position_10_0 -1.601268391450839e-05
+  hidden translation_11 -0.0024934329731584885 1.2497214416568037e-05 0
+  hidden rotation_11 0 0 -1 0.010024018699358006
+  hidden linearVelocity_11 2.2204643878412026e-14 1.1102223804562669e-14 -1.0049665212960532e-15
+  hidden angularVelocity_11 -3.0538161099814688e-21 1.6836389485989376e-18 6.512975720499597e-19
+  translation -21.59 -4.82 0
+  name "cabinet(4)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915252883e-05
+  hidden translation_7 0.008225616438588925 -0.00013603873835973945 0
+  hidden rotation_7 0 0 -1 0.03307383474887814
+  hidden linearVelocity_7 2.1845400886292103e-19 -5.551116587825919e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 -2.3921456363258366e-21 -3.10614721913773e-19 -7.75128345424259e-19
+  hidden position_10_0 -0.009999970379941584
+  hidden translation_11 -0.0024894426502087247 1.245724601392495e-05 0
+  hidden rotation_11 0 0 -1 0.01000797617351139
+  hidden linearVelocity_11 2.220443064699306e-14 5.551116582709982e-15 -8.793457061340466e-16
+  hidden angularVelocity_11 3.0968330269299283e-21 -1.705365591945327e-18 -1.0544793965889814e-19
+  translation -21.59 -3.69 0
+  name "cabinet(84)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915234546e-05
+  hidden translation_7 0.007637895236803143 -0.00011728884486930657 0
+  hidden rotation_7 0 0 -1 0.03070993390480777
+  hidden linearVelocity_7 -4.6546191955438685e-19 -2.775554442238295e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 4.178276633002315e-21 5.66221692959481e-19 1.6515691854376272e-18
+  hidden position_10_0 -0.006308132504441645
+  hidden translation_11 -0.0015711290897090992 4.961751227716693e-06 0
+  hidden rotation_11 0 0 -1 0.006316138076162715
+  hidden linearVelocity_11 2.220450541800752e-14 2.775555871216764e-15 -1.0677769288770566e-15
+  hidden angularVelocity_11 -9.550201568484744e-17 1.2780352155929278e-18 1.5988981441088314e-19
+  translation -21.59 -1.35 0
+  name "cabinet(85)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391525799e-05
+  hidden translation_7 0.003972067658834151 -3.1715230840501096e-05 0
+  hidden rotation_7 0 0 -1 0.015968790466982602
+  hidden linearVelocity_7 2.2204553263669677e-14 8.838941591303127e-22 -9.421561137150501e-16
+  hidden angularVelocity_7 2.097802535376528e-21 3.9078632261762227e-19 -3.292408344726823e-19
+  hidden position_10_0 -0.009999970379941965
+  hidden translation_11 -0.002489442650208818 1.2457246014035972e-05 0
+  hidden rotation_11 0 0 -1 0.010007975951642822
+  hidden linearVelocity_11 2.2204441324287924e-14 8.966114689846341e-22 -1.6330705971060869e-15
+  hidden angularVelocity_11 3.1662933164887617e-21 -1.743621372321731e-18 -6.784089392589527e-20
+  translation -21.59 -0.25 0
+  name "cabinet(86)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 0.004544465727242854
+  hidden translation_7 -0.001138398184120836 -2.6049391196880656e-06 0
+  hidden rotation_7 0 0 1 0.004576490427032969
+  hidden linearVelocity_7 1.440766610193026e-14 -1.2655855887840491e-15 -1.6330705971060867e-15
+  hidden angularVelocity_7 -8.293170648936113e-21 -8.346814931733977e-19 2.7654262937060244e-14
+  hidden position_10_0 -0.009984149818099227
+  hidden translation_11 -0.002485507482219688 1.241789276112959e-05 0
+  hidden rotation_11 0 0 -1 0.009992155389809354
+  hidden linearVelocity_11 -1.5858703047819683e-19 1.3877844479453812e-15 -8.793457061340466e-16
+  hidden angularVelocity_11 -6.393024604725609e-22 3.521351168204294e-19 -5.629227837861387e-19
+  translation -21.59 0.85 0
+  name "cabinet(8)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.006967604015806724
+  hidden translation_7 0.0017252113594637202 -5.9826935246698465e-06 0
+  hidden rotation_7 0 0 -1 0.0069355793576054234
+  hidden linearVelocity_7 2.2204577882846092e-14 -2.7755553780984982e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 2.894070638698678e-22 6.999561410555374e-20 -4.166651299715229e-19
+  hidden position_10_0 -0.009876584041806333
+  hidden translation_11 -0.0024587518167795545 1.2151976215513116e-05 0
+  hidden rotation_11 0 0 -0.9999999999999999 0.009884589280654617
+  hidden linearVelocity_11 2.2204687516051964e-14 2.7755494206605345e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 1.2428470096176758e-21 -6.782184435362369e-19 8.061235141994619e-19
+  translation -21.59 1.97 0
+  name "cabinet(9)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915311138e-05
+  hidden translation_7 0.007004668475108521 -9.864343914631202e-05 0
+  hidden rotation_7 0 0 -1 0.0281631948371054
+  hidden linearVelocity_7 1.1692798464141352e-19 -5.551115682226756e-15 -9.421561137150487e-16
+  hidden angularVelocity_7 -9.553244120887078e-17 -3.668279818210152e-19 -4.149002700692344e-19
+  hidden position_10_0 -0.00998473009777262
+  hidden translation_11 -0.002485651819582165 1.2419335093799555e-05 0
+  hidden rotation_11 0 0 -1 0.009992734393479025
+  hidden linearVelocity_11 -2.2204442761904065e-14 1.110222973267499e-14 -1.0677769288770566e-15
+  hidden angularVelocity_11 4.53933389114973e-22 -2.499969366942634e-19 6.308608421038563e-20
+  translation -21.59 4.72 0
+  name "cabinet(10)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.04205103412668476
+  hidden translation_7 0.010449152964864492 -0.00021956383107499255 0
+  hidden rotation_7 0 0 -0.9999999999999999 0.04201900956554975
+  hidden linearVelocity_7 9.670214818819346e-20 -5.5511169325472704e-15 -1.50744978194408e-15
+  hidden angularVelocity_7 4.0969374548252896e-21 4.593670607880388e-19 -3.430061553955213e-19
+  hidden position_10_0 0.0007028389563948382
+  hidden translation_11 0.0001728396008825906 6.004730035424899e-08 0
+  hidden rotation_11 0 0 1 0.0006948340505449338
+  hidden linearVelocity_11 2.2204734410790954e-14 1.1102223890443553e-14 -1.0677769288770566e-15
+  hidden angularVelocity_11 -1.1632320294326638e-23 3.489845741399544e-21 9.723988629051826e-19
+  translation -21.59 5.83 0
+  name "cabinet(11)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 5.6044393702523335e-05
+  hidden translation_7 -1.5932618535665597e-05 -5.102480105101392e-10 0
+  hidden rotation_7 0 0 1 6.405068230469192e-05
+  hidden linearVelocity_7 2.2204451619716016e-14 -5.5511153816618264e-15 -1.50744978194408e-15
+  hidden angularVelocity_7 1.4726862453769338e-21 4.636119858634879e-19 3.0958540294332665e-20
+  hidden position_10_0 -5.6044393701356923e-05
+  hidden translation_11 -1.5932618535331494e-05 5.102480105101392e-10 0
+  hidden rotation_11 0 0 -1 6.405068230469192e-05
+  hidden linearVelocity_11 2.2204230174417318e-14 5.551120734816446e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 -1.472604402890003e-21 4.636333175928809e-19 -8.173254457052068e-19
+  translation -24.15 -2.57 0
+  name "cabinet(12)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391502628e-05
+  hidden translation_7 -1.593261853568675e-05 -5.102481492880173e-10 0
+  hidden rotation_7 0 0 1 6.405068230469192e-05
+  hidden linearVelocity_7 2.2204647105560765e-14 -2.7755533245066623e-15 -1.0677769288770568e-15
+  hidden angularVelocity_7 1.475705044720921e-21 4.645200698205049e-19 -6.624700492329499e-19
+  hidden position_10_0 -5.604439370103416e-05
+  hidden translation_11 -1.593261853525121e-05 5.102480105101392e-10 0
+  hidden rotation_11 0 0 -1 6.405068230469192e-05
+  hidden linearVelocity_11 2.220420975577558e-14 2.7755634914758785e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 -1.4724186629768159e-21 4.635792679356181e-19 -8.899297538412566e-19
+  translation -24.15 -1.52 0
+  name "cabinet(13)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 6.382548617991044e-05
+  hidden translation_7 -1.7868165284943503e-05 -6.417515130419105e-10 0
+  hidden rotation_7 0 0 1 7.183172103227403e-05
+  hidden linearVelocity_7 2.2204558033260735e-14 -2.7755552352444808e-15 -1.6330705971060869e-15
+  hidden angularVelocity_7 2.5847344519541005e-21 8.139408814441881e-19 -3.464234064211341e-19
+  hidden position_10_0 -6.38254861778477e-05
+  hidden translation_11 -1.7868165284386434e-05 6.417515130419105e-10 0
+  hidden rotation_11 0 0 -1 7.183172103227403e-05
+  hidden linearVelocity_11 2.2204493041031062e-14 5.551114453903333e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 2.9045984099299143e-21 -9.146962093575015e-19 1.1521262243384178e-19
+  translation -24.15 1.96 0
+  name "cabinet(14)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 6.38254861798334e-05
+  hidden translation_7 -1.786816528492434e-05 -6.417515130419105e-10 0
+  hidden rotation_7 0 0 0.9999999999999999 7.183172103227403e-05
+  hidden linearVelocity_7 2.2204557883509058e-14 -5.551113285138248e-15 -1.6330705971060869e-15
+  hidden angularVelocity_7 -2.9046611869178036e-21 -9.147316120913611e-19 -3.4569890531050852e-19
+  hidden position_10_0 -6.382548617811093e-05
+  hidden translation_11 -1.7868165284451913e-05 6.417515130419105e-10 0
+  hidden rotation_11 0 0 -1 7.183172103227403e-05
+  hidden linearVelocity_11 2.2204479376190143e-14 5.551114835302148e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 2.904600974970329e-21 -9.146940813375976e-19 6.703908532023123e-20
+  translation -24.15 3.15 0
+  name "cabinet(15)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 6.38254861798728e-05
+  hidden translation_7 -1.786816528493414e-05 -6.417515130419105e-10 0
+  hidden rotation_7 0 0 1 7.183172103227403e-05
+  hidden linearVelocity_7 2.220457555420744e-14 -8.326670243014679e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 2.5847980830620288e-21 8.139571346200301e-19 -4.0850510156778187e-19
+  hidden position_10_0 -6.382548617812661e-05
+  hidden translation_11 -1.7868165284455816e-05 6.417515130419105e-10 0
+  hidden rotation_11 0 0 -1 7.183172103227403e-05
+  hidden linearVelocity_11 2.2204591308084312e-14 5.5511123122203034e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 -2.584898509854236e-21 8.139839639747011e-19 4.643306751363884e-19
+  translation -24.15 4.25 0
+  name "cabinet(16)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370308653e-05
+  hidden translation_7 -1.5930650376298662e-05 -5.101218336633906e-10 0
+  hidden rotation_7 0 0 1 6.404280547424216e-05
+  hidden linearVelocity_7 8.881784284441585e-14 5.551072503797289e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 6.02762973553014e-20 -1.6382984606424684e-17 1.5143383160103223e-19
+  hidden position_10_0 -5.6044393700885255e-05
+  hidden translation_11 -1.5930650375773898e-05 5.101218336633906e-10 0
+  hidden rotation_11 0 0 -1 6.404280547424216e-05
+  hidden linearVelocity_11 -8.88178410468442e-14 5.551168906442117e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 1.55603630195916e-20 4.227543084157833e-18 1.909477640632164e-19
+  translation 39.24 -6.43 0
+  rotation 0 0 1 1.5708
+  name "cabinet(17)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.6044393702655195e-05
+  hidden translation_7 -1.5930650376191374e-05 -5.101218336633906e-10 0
+  hidden rotation_7 0 0 1 6.404280547424216e-05
+  hidden linearVelocity_7 8.881784157641632e-14 5.551142669947556e-15 -1.0677769288770568e-15
+  hidden angularVelocity_7 1.788947664334505e-18 -1.63884752760648e-17 -9.767327009389806e-20
+  hidden position_10_0 -5.604439370028001e-05
+  hidden translation_11 -1.5930650375623343e-05 5.101218336633906e-10 0
+  hidden rotation_11 0 0 -1 6.404280547424216e-05
+  hidden linearVelocity_11 -8.881784338964882e-14 5.551076060399721e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 1.555838832888692e-20 4.227542176610281e-18 -1.3847625068008016e-19
+  translation 40.37 -6.43 0
+  rotation 0 0 1 1.5708
+  name "cabinet(18)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370428622e-05
+  hidden translation_7 -1.5930650376597092e-05 -5.101218336633906e-10 0
+  hidden rotation_7 0 0 1 6.404280547424216e-05
+  hidden linearVelocity_7 -8.881783753612946e-14 -2.775733212797452e-15 -1.6958810046870901e-15
+  hidden angularVelocity_7 1.879586896495377e-18 -4.102037298034464e-17 -6.23433582524145e-19
+  hidden position_10_0 -1.601268391433331e-05
+  hidden translation_11 -1.5930650375899842e-05 5.101222222414492e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 6.404280547424216e-05
+  hidden linearVelocity_11 8.881784657479734e-14 -1.3875774920590494e-15 -8.793457061340466e-16
+  hidden angularVelocity_11 1.2458174952543251e-19 3.385239037718662e-17 -7.143176470495526e-19
+  translation 40.37 -1.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(19)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370390576e-05
+  hidden translation_7 -1.3941042926548474e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -8.881783930397033e-14 -2.775665158145893e-15 -1.5074497819440802e-15
+  hidden angularVelocity_7 1.803734987474503e-18 -2.0399221626904528e-17 -3.8193354422890325e-19
+  hidden position_10_0 -3.202536782964604e-05
+  hidden translation_11 -1.3941042926044827e-05 3.906589496338597e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783711309121e-14 -2.7757623394994618e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 3.506166058078077e-18 1.3275824711633924e-17 7.268501300351818e-19
+  translation 39.25 -1.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(20)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370398104e-05
+  hidden translation_7 -1.39410429265672e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 0.9999999999999999 5.604439047360844e-05
+  hidden linearVelocity_7 -8.881784245194228e-14 -2.775523163601702e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 7.506935464099537e-20 -2.039372726644732e-17 1.2146939690732742e-19
+  hidden position_10_0 -3.202536782938488e-05
+  hidden translation_11 -1.3941042925979837e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 5.604439047360844e-05
+  hidden linearVelocity_11 8.88178337548208e-14 -2.7759045436960074e-15 -1.6330705971060867e-15
+  hidden angularVelocity_11 4.8824314240128797e-20 1.3264840163596542e-17 1.231637445322792e-18
+  translation 38.13 -1.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(21)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391498959e-05
+  hidden translation_7 -0.002491441497522835 -1.2477259130949658e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -8.881783798013274e-14 -1.3879073276246588e-15 -9.4215611371505e-16
+  hidden angularVelocity_7 -3.3531513522166255e-20 1.5947432341620278e-17 -4.55998877139082e-19
+  hidden position_10_0 0.23512865836181088
+  hidden translation_11 0.057945005938723156 0.006843119596070035 0
+  hidden rotation_11 0 0 1 0.2351046393169477
+  hidden linearVelocity_11 4.448572171173265e-14 5.191443931048308e-15 -1.0677769288770566e-15
+  hidden angularVelocity_11 -1.1358927328591106e-18 -2.909287552192848e-17 1.3037881585679356e-15
+  translation 33.23 -1.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(22)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.6044393704171085e-05
+  hidden translation_7 -1.394104292661448e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -4.44089244527046e-14 -2.7754078697822817e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 7.507241413248085e-20 -2.039372698242182e-17 5.311638963995842e-19
+  hidden position_10_0 -3.202536782938441e-05
+  hidden translation_11 -1.3941042925979727e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783841376575e-14 -2.775704220871955e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 1.7774979251069656e-18 1.327033122744476e-17 5.208054627526719e-19
+  translation 31.92 -1.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(23)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915030188e-05
+  hidden translation_7 0.011497496963322088 -0.000265855508689572 0
+  hidden rotation_7 0 0 -1 0.0462375668715494
+  hidden linearVelocity_7 1.6176720510245117e-14 -4.1405320231071283e-17 -1.5702601895250834e-15
+  hidden angularVelocity_7 3.6850551185239695e-20 3.645200269217488e-18 -2.1373655435459534e-14
+  hidden position_10_0 -1.6012683914777077e-05
+  hidden translation_11 0.025928459552161328 0.001355017259338842 0
+  hidden rotation_11 0 0 1 0.1044246932934057
+  hidden linearVelocity_11 2.2204651216244418e-14 1.5562635341102837e-20 -1.5702601895250834e-15
+  hidden angularVelocity_11 -8.013145608512639e-20 4.623518435069404e-18 -6.791396990493521e-19
+  translation 26.98 -0.429999 0
+  rotation 0 0 1 3.14159
+  name "cabinet(25)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915037428e-05
+  hidden translation_7 0.005218304551810151 -5.474110348524519e-05 0
+  hidden rotation_7 0 0 -0.9999999999999999 0.020979647733848635
+  hidden linearVelocity_7 -2.220437247688841e-14 1.3877783509785454e-15 -9.4215611371505e-16
+  hidden angularVelocity_7 -9.552180799520908e-17 -1.5233187239209825e-19 3.1241837819832046e-19
+  hidden position_10_0 -0.009999904334887308
+  hidden translation_11 -0.002487434746367001 1.2437158391970238e-05 0
+  hidden rotation_11 0 0 -1 0.00999990433486832
+  hidden linearVelocity_11 -2.2204665607380985e-14 -2.7755503866333904e-15 -1.6958810046870897e-15
+  hidden angularVelocity_11 -2.7643448531461443e-21 1.5217602445185836e-18 7.283127262436847e-19
+  translation 26.98 -1.57 0
+  rotation 0 0 1 3.14159
+  name "cabinet(26)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391522618e-05
+  hidden translation_7 0.020606938037032056 -0.0008550290854253406 0
+  hidden rotation_7 0 0 -1 0.08293701029220867
+  hidden linearVelocity_7 2.2204716298325096e-14 2.775542265731229e-15 -2.512416303240134e-16
+  hidden angularVelocity_7 -3.680317632047727e-20 -2.5461502395051105e-18 9.084806665919155e-19
+  hidden position_10_0 -1.6012683914746462e-05
+  hidden translation_11 -0.0024914414975224617 1.247725913075537e-05 0
+  hidden rotation_11 0 0 -1 0.010016012683911266
+  hidden linearVelocity_11 -2.2204249132980174e-14 -2.775565217835019e-15 -9.421561137150501e-16
+  hidden angularVelocity_11 2.159537561543447e-21 -1.1902854302501605e-18 -7.50686454227262e-19
+  translation 26.98 -2.71 0
+  rotation 0 0 1 3.14159
+  name "cabinet(27)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915414774e-05
+  hidden translation_7 0.020855454081489432 -0.0008758130924988172 0
+  hidden rotation_7 0 0 -1 0.08393955762585857
+  hidden linearVelocity_7 2.220439672823724e-14 1.1102234414337324e-14 -9.421561137150501e-16
+  hidden angularVelocity_7 3.0678822186573e-21 2.1028066202238164e-19 -2.2556483563335497e-19
+  hidden position_10_0 0.043222378723246156
+  hidden translation_11 0.010748219387154336 0.0002323179731348879 0
+  hidden rotation_11 0 0 1 0.043222378723250986
+  hidden linearVelocity_11 -1.7964960445058502e-19 -5.5511191410451e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 -9.556690663085158e-17 1.5264408689780347e-18 6.374130640265289e-19
+  translation 26.98 -5.89 0
+  rotation 0 0 1 3.14159
+  name "cabinet(28)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.15986302114101458
+  hidden translation_7 0.039596765243476675 -0.0031717870366894663 0
+  hidden rotation_7 0 0 -1 0.15986302114101403
+  hidden linearVelocity_7 2.673979858036173e-15 1.0737461427191483e-14 -1.5702601895250832e-15
+  hidden angularVelocity_7 9.746523300928895e-20 4.283839208373297e-18 9.571558425019726e-15
+  hidden position_10_0 0.08728438122848282
+  hidden translation_11 0.021684431302689187 0.0009469573651694485 0
+  hidden rotation_11 0 0 1 0.08728438122848346
+  hidden linearVelocity_11 2.220252099857817e-14 -1.1102352921281679e-14 -2.512416303240132e-16
+  hidden angularVelocity_11 -9.56758106489665e-17 1.4037319836014471e-18 6.8947518548890904e-18
+  translation 29.58 -5.89 0
+  rotation 0 0 1 3.14159
+  name "cabinet(29)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.15986302114101458
+  hidden translation_7 0.039596765243476675 -0.0031717870366895218 0
+  hidden rotation_7 0 0 -1 0.15986302114101403
+  hidden linearVelocity_7 2.674212272645525e-15 1.073743039802479e-14 -1.5702601895250834e-15
+  hidden angularVelocity_7 1.1146607138901238e-18 4.558661727912056e-17 9.572388953345224e-15
+  hidden position_10_0 0.08728438122848282
+  hidden translation_11 0.021684431302689183 0.0009469573651694208 0
+  hidden rotation_11 0 0 1 0.08728438122848346
+  hidden linearVelocity_11 2.220252099857817e-14 -1.1102352921281679e-14 -2.512416303240132e-16
+  hidden angularVelocity_11 -9.56758106489665e-17 1.4037319836014471e-18 6.8947518548890904e-18
+  translation 29.58 -4.62 0
+  rotation 0 0 1 3.14159
+  name "cabinet(89)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915090076e-05
+  hidden translation_7 0.03692393510305331 -0.0027557205614212044 0
+  hidden rotation_7 0 0 -1 0.14898851598832466
+  hidden linearVelocity_7 2.2205734519906806e-14 5.550955224333551e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 -1.2677212540998918e-20 -5.459599319579234e-19 4.554892222100558e-18
+  hidden position_10_0 -1.6012683914814977e-05
+  hidden translation_11 0.025387470365671964 0.0012989162512457297 0
+  hidden rotation_11 0 0 1 0.10223819932044613
+  hidden linearVelocity_11 2.2204260903462322e-14 -2.7755735243759874e-15 -1.50744978194408e-15
+  hidden angularVelocity_11 -1.339427230544393e-20 7.860533897836372e-19 7.106278196653056e-19
+  translation 29.58 -3.35 0
+  rotation 0 0 1 3.14159
+  name "cabinet(30)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391509177e-05
+  hidden translation_7 0.03692393510305331 -0.002755720561421232 0
+  hidden rotation_7 0 0 -1 0.14898851598832766
+  hidden linearVelocity_7 2.2204025433918665e-14 5.46811635334907e-20 -9.421561137150501e-16
+  hidden angularVelocity_7 -1.2653824099780773e-20 -5.451549170307832e-19 -1.5562464356246429e-18
+  hidden position_10_0 -1.6012683914770213e-05
+  hidden translation_11 0.02538747036567197 0.0012989162512457575 0
+  hidden rotation_11 0 0 1 0.10223819932044179
+  hidden linearVelocity_11 2.220421457029213e-14 -5.55113498498563e-15 -8.793457061340466e-16
+  hidden angularVelocity_11 -1.339144440409936e-20 7.85884195435603e-19 8.747387349785738e-19
+  translation 29.58 -2.04 0
+  rotation 0 0 1 3.14159
+  name "cabinet(24)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915020304e-05
+  hidden translation_7 -0.0024914414975226507 -1.2477259130949658e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -2.22045397710432e-14 1.3877763506404e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 5.100127963886268e-22 2.8101125370725335e-19 -2.815108679652586e-19
+  hidden position_10_0 -1.6012683914808522e-05
+  hidden translation_11 0.021070732208519162 0.0008940201564683059 0
+  hidden rotation_11 0 0 1 0.08480808703131251
+  hidden linearVelocity_11 6.009088859609318e-15 -3.3055117919018123e-16 -1.13058733645806e-15
+  hidden angularVelocity_11 -9.56173318063148e-17 -1.7058315974637547e-18 -2.134131418759148e-14
+  translation 26.98 0.77 0
+  rotation 0 0 1 3.14159
+  name "cabinet(31)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.0030938511340700657
+  hidden translation_7 -0.0007695942418501334 -1.1905059580930022e-06 0
+  hidden rotation_7 0 0 1 0.0030938511340236194
+  hidden linearVelocity_7 -1.7523053341832253e-14 2.903419244894003e-15 -1.6330705971060873e-15
+  hidden angularVelocity_7 9.550654489754148e-17 8.663520338675626e-19 1.6599720233763114e-14
+  hidden position_10_0 -1.6012683914823227e-05
+  hidden translation_11 0.016031064021577297 0.0005171103855567127 0
+  hidden rotation_11 0 0 1 0.06449118358410706
+  hidden linearVelocity_11 -5.462941333186246e-20 -2.7755594965005237e-15 -3.1405203790501645e-16
+  hidden angularVelocity_11 -2.1839087640935466e-20 1.825076187098601e-18 1.9320763749257448e-19
+  translation 26.98 1.98 0
+  rotation 0 0 1 3.14159
+  name "cabinet(32)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.009999825023908735
+  hidden translation_7 -0.0024874150187474647 -1.2436961112360922e-05 0
+  hidden rotation_7 0 0 1 0.009999825023927916
+  hidden linearVelocity_7 -2.220460754865415e-14 5.5511096209292e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 1.6134432523200463e-21 8.878527943576986e-19 -5.216548283381684e-19
+  hidden position_10_0 -1.6012683914823356e-05
+  hidden translation_11 0.01861291007443563 0.0006973401098844256 0
+  hidden rotation_11 0 0 1 0.07489576926600312
+  hidden linearVelocity_11 2.716227742458933e-15 -2.6379857170963368e-15 -8.165352985530434e-16
+  hidden angularVelocity_11 5.162562435200296e-20 -3.72095571594971e-18 -9.645909413760934e-15
+  translation 26.98 3.11 0
+  rotation 0 0 1 3.14159
+  name "cabinet(33)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391547504e-05
+  hidden translation_7 -0.002487475372467923 -1.2437564666317735e-05 0
+  hidden rotation_7 0 0 1 0.010000067664061755
+  hidden linearVelocity_7 -2.2204216741691508e-14 1.110223888053235e-14 -8.793457061340468e-16
+  hidden angularVelocity_7 3.0119404239059546e-21 1.6571936485061764e-18 8.657621640714419e-19
+  hidden position_10_0 -1.6012683914794438e-05
+  hidden translation_11 0.019911695155414858 0.0007982165903255845 0
+  hidden rotation_11 0 0 1 0.0801327469993884
+  hidden linearVelocity_11 2.2204147301836895e-14 -8.326689922934815e-15 -9.421561137150501e-16
+  hidden angularVelocity_11 6.951470558694259e-20 -4.938408423070458e-18 1.1133785234184483e-18
+  translation 26.98 4.3 0
+  rotation 0 0 1 3.14159
+  name "cabinet(34)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.002203513569065364
+  hidden translation_7 0.0005481235567383227 -6.038990919554621e-07 0
+  hidden rotation_7 0 0 -1 0.0022035135691232284
+  hidden linearVelocity_7 -4.440892026368383e-14 -2.775590117578402e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 -1.6544840294624657e-19 4.09640366612514e-17 -1.1546889492448804e-19
+  hidden position_10_0 0.002048327528939482
+  hidden translation_11 0.0005035464516571431 5.096669125070896e-07 0
+  hidden rotation_11 0 0 1 0.0020243087244551576
+  hidden linearVelocity_11 4.440891871840377e-14 -2.7756364806989273e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 2.401718004657686e-19 5.988172993013897e-17 2.80296134160854e-19
+  translation -28.01 -2.76 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(35)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.003137896380047414
+  hidden translation_7 -0.0007805504436008285 -1.2246442104568711e-06 0
+  hidden rotation_7 0 0 1 0.003137896379998587
+  hidden linearVelocity_7 -4.440891894908447e-14 -3.470054045269535e-16 -1.6958810046870901e-15
+  hidden angularVelocity_7 -1.6857625274461836e-20 5.279588957426189e-18 -2.1556005052889233e-19
+  hidden position_10_0 -0.0029289786813756274
+  hidden translation_11 -0.0007345570566698541 1.084573359261265e-06 0
+  hidden rotation_11 0 0 -1 0.0029529973933480444
+  hidden linearVelocity_11 4.440891592804039e-14 -3.471510080866642e-16 -1.6330705971060867e-15
+  hidden angularVelocity_11 1.1146893026743798e-19 3.459428201753497e-17 7.325909092097712e-19
+  translation -28.01 0.35 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(36)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 7.205685479741311e-05
+  hidden translation_7 -1.7924142615345565e-05 -6.457789858416163e-10 0
+  hidden rotation_7 0 0 1 7.205685725846742e-05
+  hidden linearVelocity_7 -4.4408915344587037e-14 -2.7758078190850665e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 -1.849875560576594e-18 3.295423453407068e-17 -8.881963579727151e-19
+  hidden position_10_0 -7.205685479483912e-05
+  hidden translation_11 -1.7924142614705283e-05 6.457790135971919e-10 0
+  hidden rotation_11 0 0 -1 7.205685725846742e-05
+  hidden linearVelocity_11 4.440891763581153e-14 -2.7757012632762505e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 2.0364683214139902e-19 5.5358438600124574e-17 5.101401923846017e-19
+  translation -28.1 3.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(37)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.002912869607985403
+  hidden translation_7 0.0007245752903381548 -1.0552974171740281e-06 0
+  hidden rotation_7 0 0 -1 0.002912869608046531
+  hidden linearVelocity_7 -8.881784084108773e-14 -2.7756097874617393e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 1.6538436542561297e-18 1.8010272883442193e-17 -1.855382109155793e-19
+  hidden position_10_0 -0.0021146272032841404
+  hidden translation_11 -0.0005319877885406034 5.688669968972881e-07 0
+  hidden rotation_11 0 0 -1 0.0021386459520867282
+  hidden linearVelocity_11 8.881783215694598e-14 -2.7759268566965182e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 -1.7985095911088704e-19 -5.3663018117762834e-17 1.3110622634670397e-18
+  translation -35.1 3.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(38)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.013543557731264234
+  hidden translation_7 0.003368856993022555 -2.2813503307322902e-05 0
+  hidden rotation_7 0 0 -1 0.013543557731265168
+  hidden linearVelocity_7 -2.2204461145873137e-14 -2.775475302964363e-15 -1.5074497819440802e-15
+  hidden angularVelocity_7 -6.068839084059202e-20 1.0404209159116677e-17 2.9199481719761074e-19
+  hidden position_10_0 0.05343730554081939
+  hidden translation_11 0.013278249528596584 0.0003546486154461237 0
+  hidden rotation_11 0 0 1 0.0534052803695259
+  hidden linearVelocity_11 2.2204453114029714e-14 2.77579470832537e-15 -8.165352985530432e-16
+  hidden angularVelocity_11 7.438538105107565e-19 6.145370945747474e-17 -8.415062388889337e-19
+  translation -31.38 3.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(39)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 6.40505128404161e-05
+  hidden translation_7 -1.593256505815969e-05 -5.102446798410654e-10 0
+  hidden rotation_7 0 0 1 6.405051590279737e-05
+  hidden linearVelocity_7 -8.881783742358442e-14 -2.7757302552017466e-15 -1.5702601895250832e-15
+  hidden angularVelocity_7 1.5234358305950608e-19 -4.140245124328477e-17 -6.130012851160194e-19
+  hidden position_10_0 -6.405051283742747e-05
+  hidden translation_11 -1.5932565057416265e-05 5.102447353522166e-10 0
+  hidden rotation_11 0 0 -1 6.405051590279737e-05
+  hidden linearVelocity_11 8.881784167448544e-14 -2.775583723181612e-15 -9.421561137150497e-16
+  hidden angularVelocity_11 1.260028322132981e-19 3.4239876450578276e-17 9.315255370576133e-20
+  translation -38.96 3.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(40)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 9.600208661451311e-05
+  hidden translation_7 -2.3880519008678057e-05 -1.1462898685810075e-09 0
+  hidden rotation_7 0 0 1 9.60020884017676e-05
+  hidden linearVelocity_7 -4.440891458842521e-14 -5.551350877197627e-15 -1.6330705971060867e-15
+  hidden angularVelocity_7 1.0134454841822663e-19 -2.758124109502729e-17 -8.367358968499622e-19
+  hidden position_10_0 -7.198328356164348e-05
+  hidden translation_11 -2.3880519008055827e-05 1.146293726606018e-09 0
+  hidden rotation_11 0 0 -1 9.600153330072597e-05
+  hidden linearVelocity_11 4.440892106160851e-14 -5.551095393341774e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 7.453208613341943e-20 2.0280960317871082e-17 -7.030363088583752e-20
+  translation -29.91 -5.67 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(41)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 6.405051284003401e-05
+  hidden translation_7 -1.5932565058064656e-05 -5.102445688187629e-10 0
+  hidden rotation_7 0 0 1 6.405051590279737e-05
+  hidden linearVelocity_7 -4.4408919264299386e-14 -2.775615253398105e-15 -1.0049665212960536e-15
+  hidden angularVelocity_7 1.8810161018710977e-18 -4.140794036358941e-17 -2.0474499248021517e-19
+  hidden position_10_0 -4.003170978705809e-05
+  hidden translation_11 -1.5932565057416292e-05 5.102449018856703e-10 0
+  hidden rotation_11 0 0 -1 6.405051590279737e-05
+  hidden linearVelocity_11 4.440892361368723e-14 -2.775447913381856e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 1.8546751769435727e-18 3.424536937692166e-17 -3.8909474568849177e-19
+  translation -31.25 -2.76 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(42)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.0067167471525075
+  hidden translation_7 -0.0016707782913453577 -5.611118761489342e-06 0
+  hidden rotation_7 0 0 1 0.0067167471525369175
+  hidden linearVelocity_7 -8.881783706683534e-14 -5.5512750579213916e-15 -1.50744978194408e-15
+  hidden angularVelocity_7 1.053883634825181e-19 -4.014247763103525e-17 -5.676598775618779e-19
+  hidden position_10_0 -0.009999970379942746
+  hidden translation_11 -0.0024934255520642017 1.2497140024658737e-05 0
+  hidden rotation_11 0 0 -0.9999999999999999 0.01002398916594011
+  hidden linearVelocity_11 8.881783091154003e-14 -5.551433779728383e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 4.779558120455463e-20 2.2746999896820208e-17 1.1309098066292652e-18
+  translation -38.63 -3.85 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(43)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.009668565075232302
+  hidden translation_7 -0.0024050180914122993 -1.1626627534788714e-05 0
+  hidden rotation_7 0 0 1 0.009668565075218885
+  hidden linearVelocity_7 -8.881783819260565e-14 -5.551216819492543e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 7.518723298322873e-20 -3.4850445252731296e-17 -3.6078987758824004e-19
+  hidden position_10_0 -0.009823341026782307
+  hidden translation_11 -0.0024494911691608904 1.2060607931879685e-05 0
+  hidden rotation_11 0 0 -1 0.009847359646394351
+  hidden linearVelocity_11 8.881783945369746e-14 -5.551198504861922e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 -9.927510570466557e-20 -4.661848601720173e-17 2.964638809094282e-19
+  translation -35.06 -3.85 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(44)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.005314688631028474
+  hidden translation_7 -0.0013220225733248968 -3.513077439759593e-06 0
+  hidden rotation_7 0 0 1 0.00531468863105758
+  hidden linearVelocity_7 -8.881784619357944e-14 -1.3876438545166102e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 3.912959134067282e-20 -1.3739524832775581e-17 4.793789173504187e-19
+  hidden position_10_0 -0.005347985489470009
+  hidden translation_11 -0.001336279640587371 3.589258614239421e-06 0
+  hidden rotation_11 0 0 -1 0.005372004053621746
+  hidden linearVelocity_11 8.881783428565834e-14 -2.7758279382234465e-15 -1.0677769288770568e-15
+  hidden angularVelocity_11 -3.570345529191101e-18 -3.977595608947985e-17 9.59682327003446e-19
+  translation -35.06 -1.11 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(45)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.007018754978794514
+  hidden translation_7 -0.0017459009661957203 -6.1270507027422205e-06 0
+  hidden rotation_7 0 0 1 0.007018754978821783
+  hidden linearVelocity_7 -8.881784702535031e-14 -2.7753935535215513e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 -3.675965450466544e-21 1.4278115016604883e-18 5.8203737501048815e-19
+  hidden position_10_0 -0.005549010946197426
+  hidden translation_11 -0.0013803093892032295 3.829685782108516e-06 0
+  hidden rotation_11 0 0 -1 0.005549010946226256
+  hidden linearVelocity_11 8.881784373442263e-14 -2.775501150104552e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 -1.3085643015846598e-19 -4.6553846841883364e-17 -2.0022920245494894e-19
+  translation -38.71 -1.07 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(46)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 7.20568547962126e-05
+  hidden translation_7 -1.7924142615046918e-05 -6.457792356417968e-10 0
+  hidden rotation_7 0 0 1 7.205685725846742e-05
+  hidden linearVelocity_7 -8.881784127924758e-14 3.4690182128901025e-16 -1.50744978194408e-15
+  hidden angularVelocity_7 -1.2120049233107116e-19 3.294874298322752e-17 -1.5256067562569274e-19
+  hidden position_10_0 -7.205685479355764e-05
+  hidden translation_11 -1.7924142614386497e-05 6.457792356417968e-10 0
+  hidden rotation_11 0 0 -1 7.205685725846742e-05
+  hidden linearVelocity_11 8.88178423961848e-14 3.4694727092427967e-16 -1.5702601895250834e-15
+  hidden angularVelocity_11 2.0364993397622936e-19 5.5358437131621715e-17 -9.097165560516313e-21
+  translation -39.87 0.55 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(47)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 3.525740767187633e-05
+  hidden translation_7 -8.770280156562187e-06 -1.5460915880893822e-10 0
+  hidden rotation_7 0 0 1 3.5257406970477444e-05
+  hidden linearVelocity_7 -8.881783757321367e-14 3.4675711623938693e-16 -1.5702601895250834e-15
+  hidden angularVelocity_7 1.8213101522475846e-18 -2.515198718437503e-17 -6.660060042899808e-19
+  hidden position_10_0 -8.005812725999854e-05
+  hidden translation_11 -1.9914459134651633e-05 7.97157562182349e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 8.005812457934628e-05
+  hidden linearVelocity_11 8.881784533421098e-14 3.4709312906184866e-16 -9.421561137150503e-16
+  hidden angularVelocity_11 -1.79908885719459e-18 -1.9155101600874355e-17 -5.267625745781793e-19
+  translation -42.7 0.54 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(48)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.002179079816197694
+  hidden translation_7 0.0005420456753049983 -5.905806292894056e-07 0
+  hidden rotation_7 0 0 -0.9999999999999999 0.0021790798162443716
+  hidden linearVelocity_7 -8.881784199739245e-14 3.46939992992569e-16 -1.0677769288770566e-15
+  hidden angularVelocity_7 1.006617464264455e-19 -2.4947309094478604e-17 -1.6411560269099347e-20
+  hidden position_10_0 0.0015545350876358676
+  hidden translation_11 0.0003866904473046865 3.005619951812477e-07 0
+  hidden rotation_11 0 0 1 0.0015545350875418905
+  hidden linearVelocity_11 8.88178426549487e-14 3.469727811231861e-16 -1.50744978194408e-15
+  hidden angularVelocity_11 1.6782284135243955e-19 4.2633472087882083e-17 -9.963242517860388e-20
+  translation -43.86 0.56 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(49)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 0.003119490585002839
+  hidden translation_7 -0.0007759720244920836 -1.2103196942725436e-06 0
+  hidden rotation_7 0 0 1 0.0031194905849662607
+  hidden linearVelocity_7 -8.881784138069238e-14 -2.77557902097882e-15 -1.0677769288770566e-15
+  hidden angularVelocity_7 -3.4502721641178785e-18 -2.2216774749908295e-18 -7.623554348525779e-20
+  hidden position_10_0 -0.0030065678375932685
+  hidden translation_11 -0.0007478826228588518 1.1242807678724098e-06 0
+  hidden rotation_11 0 0 -1 0.0030065678376357888
+  hidden linearVelocity_11 8.881784361204779e-14 -2.775501239955562e-15 -1.6330705971060869e-15
+  hidden angularVelocity_11 -3.4652415779321732e-18 -2.450094738771785e-18 -2.0017690323937787e-19
+  translation -44.92 2.22 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(50)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370415905e-05
+  hidden translation_7 -1.3941042926611483e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -8.881783920031619e-14 -2.7756631140354437e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 7.506565319549726e-20 -2.0393728136646376e-17 -3.744482139420206e-19
+  hidden position_10_0 -5.6044393701619666e-05
+  hidden translation_11 -1.394104292597981e-05 3.9065867207810356e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783811404588e-14 -2.7757213449767103e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 1.777497561961025e-18 1.3270331058012918e-17 5.813850006465683e-19
+  translation 34.44 -1.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(51)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370489717e-05
+  hidden translation_7 -1.593065037674906e-05 -5.101218336633906e-10 0
+  hidden rotation_7 0 0 1 6.404280547424216e-05
+  hidden linearVelocity_7 -8.881784077908619e-14 -2.7756048381686727e-15 -1.6330705971060867e-15
+  hidden angularVelocity_7 1.8795903066856034e-18 -4.102037520914043e-17 -1.6803101025830116e-19
+  hidden position_10_0 -4.003170978705827e-05
+  hidden translation_11 -1.5930650376021713e-05 5.101220279524199e-10 0
+  hidden rotation_11 0 0 -1 6.404280547424216e-05
+  hidden linearVelocity_11 8.88178455718394e-14 -2.775419385686572e-15 -1.6330705971060865e-15
+  hidden angularVelocity_11 1.2458006846714958e-19 3.3852297617383196e-17 -4.904317893350894e-19
+  translation 40.37 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(52)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370437525e-05
+  hidden translation_7 -1.3941042926665263e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -8.881784210255511e-14 -2.775567093257405e-15 -1.5074497819440802e-15
+  hidden angularVelocity_7 -2.0051453548673485e-18 7.511521626736919e-17 -3.3860330986479466e-20
+  hidden position_10_0 -3.2025367829646325e-05
+  hidden translation_11 -1.394104292604486e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783903169869e-14 -2.775678021815315e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 3.506167853125772e-18 1.3275825692612792e-17 4.2749084447329236e-19
+  translation 39.29 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(53)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.6044393704186434e-05
+  hidden translation_7 -1.3941042926618297e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -8.88178419918992e-14 -2.775547505737493e-15 -8.793457061340466e-16
+  hidden angularVelocity_7 7.506871303119264e-20 -2.0393726852617395e-17 3.5785111169694666e-20
+  hidden position_10_0 -3.2025367829646285e-05
+  hidden translation_11 -1.3941042926044857e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783879959423e-14 -2.7756885044330057e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 1.777498265099751e-18 1.3270332339140387e-17 4.646745962650549e-19
+  translation 38.1 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(54)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370442429e-05
+  hidden translation_7 -1.3941042926677459e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -8.881784210255511e-14 -2.775567093257405e-15 -1.5074497819440802e-15
+  hidden angularVelocity_7 -2.0051453548673485e-18 7.511521626736919e-17 -3.3860330986479466e-20
+  hidden position_10_0 -3.2025367829646115e-05
+  hidden translation_11 -1.394104292604483e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783713298792e-14 -2.775770044223464e-15 -1.6330705971060867e-15
+  hidden angularVelocity_11 4.8827178642010124e-20 1.3264841615877316e-17 7.538728802241794e-19
+  translation 34.64 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(55)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370407361e-05
+  hidden translation_7 -1.3941042926590231e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -8.881784415096098e-14 -2.77548500687331e-15 -1.5074497819440802e-15
+  hidden angularVelocity_7 -2.7647378777330073e-19 7.510972256929061e-17 2.5744459904228072e-19
+  hidden position_10_0 -3.202536782964631e-05
+  hidden translation_11 -1.3941042926044867e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783879959423e-14 -2.7756885044330057e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 1.777498265099751e-18 1.3270332339140387e-17 4.646745962650549e-19
+  translation 33.36 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(56)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370405176e-05
+  hidden translation_7 -1.3941042926584795e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -4.440891920696047e-14 -2.7756272410201922e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 7.506660056004784e-20 -2.039372758122621e-17 -2.4735690291504803e-19
+  hidden position_10_0 -3.20253678296463e-05
+  hidden translation_11 -1.394104292604486e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 8.881783903169869e-14 -2.775678021815315e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 3.506167853125772e-18 1.3275825692612792e-17 4.2749084447329236e-19
+  translation 32.05 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(57)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370403129e-05
+  hidden translation_7 -1.39410429265797e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -4.4408920582390696e-14 -2.775573472679027e-15 -1.0049665212960536e-15
+  hidden angularVelocity_7 7.506802460307838e-20 -2.039372735396285e-17 -5.661739180193258e-20
+  hidden position_10_0 -3.20253678296462e-05
+  hidden translation_11 -1.3941042926044837e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 5.604439047360844e-05
+  hidden linearVelocity_11 4.440891583442666e-14 -2.7757805717666574e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 4.8826948854218227e-20 1.326484012734752e-17 7.913560452423238e-19
+  translation 30.77 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(58)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 5.6044393704001055e-05
+  hidden translation_7 -1.3941042926572183e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -4.4408919401894455e-14 -2.7756047033921594e-15 -1.0049665212960536e-15
+  hidden angularVelocity_7 7.506719552377917e-20 -2.0393726895805344e-17 -1.6737517698531515e-19
+  hidden position_10_0 -4.00317097870579e-05
+  hidden translation_11 -1.3941042926044857e-05 3.906588941227085e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 5.60444063213728e-05
+  hidden linearVelocity_11 4.4408916960316557e-14 -2.775725934865741e-15 -9.4215611371505e-16
+  hidden angularVelocity_11 4.882830192906725e-20 1.3264893027244987e-17 5.977883644967291e-19
+  translation 29.48 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(59)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.002297212596845191
+  hidden translation_7 0.0005714311308735648 -6.563496848521755e-07 0
+  hidden rotation_7 0 0 -1 0.0022972125968835945
+  hidden linearVelocity_7 -4.44089193997318e-14 -2.775624852480875e-15 -1.50744978194408e-15
+  hidden angularVelocity_7 -1.4447316917755206e-19 3.563296580257889e-17 -2.387374310146994e-19
+  hidden position_10_0 -1.6012683914823356e-05
+  hidden translation_11 0.007343832569233952 0.00010842941455901922 0
+  hidden rotation_11 0 0 1 0.02952723540530017
+  hidden linearVelocity_11 2.220446035152508e-14 -2.7755473578577086e-15 -8.793457061340468e-16
+  hidden angularVelocity_11 4.0367443895709377e-19 -3.391075058937783e-18 -3.616395375303237e-20
+  translation 24.44 3.23 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(60)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915032505e-05
+  hidden translation_7 -0.002491441497522813 -1.2477259130699858e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -2.220445607943378e-14 -5.5512317497351665e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 7.063132893940916e-20 -3.358492914286651e-17 -4.140298828139892e-19
+  hidden position_10_0 -1.601268391451779e-05
+  hidden translation_11 0.004997183639150512 5.019972730888056e-05 0
+  hidden rotation_11 0 0 1 0.02009053200835918
+  hidden linearVelocity_11 2.2204460050961192e-14 -5.5511787226648225e-15 -1.6330705971060867e-15
+  hidden angularVelocity_11 1.4947955350964415e-19 2.1767311025897477e-17 2.2571143507850347e-19
+  translation 23.26 5.26 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(61)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.60126839150571e-05
+  hidden translation_7 -0.002491441497522778 -1.2477259130838636e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -2.2204458104652242e-14 -5.551184458154218e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 7.063259206560808e-20 -3.3584932180633213e-17 -2.4574958049072217e-19
+  hidden position_10_0 -1.60126839144262e-05
+  hidden translation_11 0.02657373587675456 0.0014234970498463173 0
+  hidden rotation_11 0 0 1 0.107033336724101
+  hidden linearVelocity_11 2.2204462197699518e-14 5.551099908354966e-15 -1.5702601895250836e-15
+  hidden angularVelocity_11 -8.200766056698375e-19 -4.0236829910937677e-17 5.415025361184099e-20
+  translation 20.77 5.26 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(62)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.029249879285006483
+  hidden translation_7 0.007274870026158406 -0.00010640212122359216 0
+  hidden rotation_7 0 0 -1 0.029249879285011635
+  hidden linearVelocity_7 -2.2204460962911475e-14 -5.551168533934811e-15 -9.421561137150501e-16
+  hidden angularVelocity_7 9.859468005709523e-20 -1.186051301864626e-17 -1.8948257101551803e-19
+  hidden position_10_0 0.039355161661707536
+  hidden translation_11 0.009781099481781116 0.00019237570952040928 0
+  hidden rotation_11 0 0 1 0.03933114280173297
+  hidden linearVelocity_11 4.4408919881145466e-14 5.43523727214904e-20 -1.5702601895250834e-15
+  hidden angularVelocity_11 8.048873397810702e-20 8.131854713249413e-18 -1.9288852904701628e-19
+  translation 17.89 5.26 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(63)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 0.0069885925723905985
+  hidden translation_7 -0.0017383982516162905 -6.074503278219456e-06 0
+  hidden rotation_7 0 0 0.9999999999999999 0.006988592572377692
+  hidden linearVelocity_7 -2.2204467110959556e-14 -5.55090690838813e-15 -1.0677769288770566e-15
+  hidden angularVelocity_7 -3.60771626138213e-18 5.817526178764425e-17 7.389907290354414e-19
+  hidden position_10_0 0.04679490002317714
+  hidden translation_11 0.01163001542623812 0.00027202262336176175 0
+  hidden rotation_11 0 0 1 0.04677088121866997
+  hidden linearVelocity_11 1.1102233725950733e-14 -1.2639790658652337e-19 -1.0677769288770566e-15
+  hidden angularVelocity_11 2.1651292550331765e-18 3.9554743471101394e-17 4.483481753123157e-19
+  translation 15.18 5.26 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(64)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915028358e-05
+  hidden translation_7 -0.0024914414975228385 -1.247725913006148e-05 0
+  hidden rotation_7 0 0 0.9999999999999999 0.010016012683911266
+  hidden linearVelocity_7 -1.1102227543382927e-14 -5.551185805919347e-15 -1.6330705971060869e-15
+  hidden angularVelocity_7 7.063253883661788e-20 -3.3584925520189206e-17 -2.5100137550474763e-19
+  hidden position_10_0 0.07127988255819337
+  hidden translation_11 0.017709900468877465 0.0006312342337197185 0
+  hidden rotation_11 0 0 1 0.07125586382763754
+  hidden linearVelocity_11 2.220446323851009e-14 -5.853793221306362e-20 -8.793457061340466e-16
+  hidden angularVelocity_11 -2.503743056440607e-18 6.375931782950498e-17 2.07837461527401e-19
+  translation 12.22 5.26 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(65)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 0.0038676358651385623
+  hidden translation_7 -0.0009620720229061212 -1.860474448944771e-06 0
+  hidden rotation_7 0 0 1 0.003867635865154199
+  hidden linearVelocity_7 -1.1102236371097786e-14 -5.550890720231381e-15 -1.6330705971060869e-15
+  hidden angularVelocity_7 -5.929231568936029e-21 1.9283982069918305e-18 7.96602037698764e-19
+  hidden position_10_0 -1.601268391481739e-05
+  hidden translation_11 0.018212561255324083 0.0006676243411856131 0
+  hidden rotation_11 0 0 1 0.0732818997167543
+  hidden linearVelocity_11 2.2204465218655147e-14 5.551020015832999e-15 -8.793457061340466e-16
+  hidden angularVelocity_11 -1.9659412503594017e-19 -1.2935536739235463e-17 3.3811733693806173e-19
+  translation 9.58 5.26 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(66)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 -0.030723990019162276
+  hidden translation_7 0.007641390185872397 -0.0001173962328608058 0
+  hidden rotation_7 0 0 -1 0.030723990019162362
+  hidden linearVelocity_7 -2.220446119784904e-14 -3.470242114662265e-16 -1.50744978194408e-15
+  hidden angularVelocity_7 2.1585388889475094e-19 -2.5260619923722514e-17 -2.8216713259489626e-19
+  hidden position_10_0 -0.009999904334889693
+  hidden translation_11 -0.0024934091796067594 1.2496975903136809e-05 0
+  hidden rotation_11 0 0 -1 0.010023923083889682
+  hidden linearVelocity_11 2.2204452637849962e-14 -2.1616655193131198e-19 -1.0049665212960534e-15
+  hidden angularVelocity_11 -6.586244327133441e-20 -3.134975216306988e-17 7.672974276895982e-19
+  translation 24.34 1.09 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(67)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915213364e-05
+  hidden translation_7 0.0847315790246945 -0.01487584149594054 0
+  hidden rotation_7 0 0 -1 0.3475863175789358
+  hidden linearVelocity_7 -2.2204348251008973e-14 3.4728013896143427e-16 -9.4215611371505e-16
+  hidden angularVelocity_7 2.3769280634792025e-17 6.33869121077982e-17 1.2544539305675189e-18
+  hidden position_10_0 -1.6012683914822333e-05
+  hidden translation_11 0.06132051984792594 0.00767665774586454 0
+  hidden rotation_11 0 0 0.9999999999999999 0.2490822675981365
+  hidden linearVelocity_11 4.440908127693506e-14 -7.003586630228356e-19 -1.0049665212960534e-15
+  hidden angularVelocity_11 -2.7635832718648142e-17 -7.111758179141691e-18 2.54887462461928e-18
+  translation 22.04 1.09 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(68)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915081172e-05
+  hidden translation_7 0.0027423174092479617 -1.5116649821705908e-05 0
+  hidden rotation_7 0 0 -1 0.011024614919460248
+  hidden linearVelocity_7 -2.220445902797526e-14 -3.4706534638117873e-16 -1.6958810046870901e-15
+  hidden angularVelocity_7 -1.8395480933898722e-19 3.3841370655542536e-17 -4.279670613720674e-19
+  hidden position_10_0 0.06818738189729999
+  hidden translation_11 0.016942509560013072 0.0005776528905595546 0
+  hidden rotation_11 0 0 1 0.06816336322222198
+  hidden linearVelocity_11 4.440893708134921e-14 -3.611711049172228e-19 -1.13058733645806e-15
+  hidden angularVelocity_11 2.981930960088442e-18 -3.2706384584664256e-17 1.2834172046730979e-18
+  translation 19.34 1.09 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(69)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391500717e-05
+  hidden translation_7 -0.0024914414975227795 -1.247725913106068e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -2.2204452167423092e-14 -3.47178173041649e-16 -1.0049665212960534e-15
+  hidden angularVelocity_7 3.528138851505153e-18 -3.3591201517250513e-17 -8.292154951205078e-19
+  hidden position_10_0 0.06662383565323668
+  hidden translation_11 0.016554460067434305 0.000551465854700478 0
+  hidden rotation_11 0 0 1 0.06659981701513827
+  hidden linearVelocity_11 4.440892897996036e-14 -1.8557228344526366e-19 -1.0049665212960534e-15
+  hidden angularVelocity_11 3.8868795715550677e-19 2.744885910211476e-17 6.58782358678772e-19
+  translation 16.73 1.09 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(70)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.6012683915037614e-05
+  hidden translation_7 -0.0024914414975228103 -1.2477259131560281e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -1.1102220151895654e-14 -3.472350337550321e-16 -1.6330705971060867e-15
+  hidden angularVelocity_7 7.062671547899517e-20 -3.3584926798950205e-17 -1.0311238116669042e-18
+  hidden position_10_0 0.08138988908972287
+  hidden translation_11 0.020217435002138927 0.0008229586714395554 0
+  hidden rotation_11 0 0 1 0.08136587056256023
+  hidden linearVelocity_11 2.2204475143623255e-14 3.4669023713852616e-16 -9.421561137150497e-16
+  hidden angularVelocity_11 6.477006806293235e-18 -2.591350557208651e-17 9.039151736972964e-19
+  translation 13.64 1.09 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(71)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 1.601268391499124e-05
+  hidden translation_7 -0.0024914414975209915 -1.2477259131588037e-05 0
+  hidden rotation_7 0 0 1 0.010016012683911266
+  hidden linearVelocity_7 -1.1102228568907174e-14 -3.4698879706549903e-16 -1.6330705971060867e-15
+  hidden angularVelocity_7 7.06332421220614e-20 -3.358492509765967e-17 -1.567106864410592e-19
+  hidden position_10_0 -1.6012683914823356e-05
+  hidden translation_11 0.016355326430278237 0.0005382641828588219 0
+  hidden rotation_11 0 0 0.9999999999999999 0.0657975226339759
+  hidden linearVelocity_11 2.2204458474579233e-14 3.4699710828381027e-16 -9.421561137150501e-16
+  hidden angularVelocity_11 -1.5045249238364492e-18 -1.0719179612281671e-16 -1.8637670229705867e-19
+  translation 11.19 1.09 0
+  rotation 0 0 -1 1.5708
+  name "cabinet(72)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370402374e-05
+  hidden translation_7 -1.3941042926577829e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -4.44089205873107e-14 -2.7755675649752013e-15 -1.5074497819440802e-15
+  hidden angularVelocity_7 1.8037375647788956e-18 -2.0399219256857184e-17 -3.5758465158855235e-20
+  hidden position_10_0 -3.202536782964606e-05
+  hidden translation_11 -1.3941042926044786e-05 3.9065897738943534e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 4.440891349674215e-14 -2.775858517516766e-15 -1.6330705971060867e-15
+  hidden angularVelocity_11 4.882528867433236e-20 1.3264839368965046e-17 1.0683150812510683e-18
+  translation 22.04 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(73)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370401205e-05
+  hidden translation_7 -1.394104292657492e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 1 5.604439047360844e-05
+  hidden linearVelocity_7 -4.4408920582390733e-14 -2.775573472679027e-15 -1.0049665212960536e-15
+  hidden angularVelocity_7 7.506802460307838e-20 -2.039372735396285e-17 -5.661739180193258e-20
+  hidden position_10_0 -4.003170978705807e-05
+  hidden translation_11 -1.3941042926044903e-05 3.906588941227085e-10 0
+  hidden rotation_11 0 0 -0.9999999999999999 5.60444063213728e-05
+  hidden linearVelocity_11 4.440891780146481e-14 -2.7756916417307285e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 4.8829021101299635e-20 1.3264890006568228e-17 4.757523546146179e-19
+  translation 19.34 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(74)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 6.405073566139177e-05
+  hidden translation_7 -1.5932620484877284e-05 -5.102480105101392e-10 0
+  hidden rotation_7 0 0 1 6.405073777189403e-05
+  hidden linearVelocity_7 -4.440892043684533e-14 -2.7755789985160677e-15 -8.793457061340461e-16
+  hidden angularVelocity_7 -3.3049501030090286e-18 -4.140268123114165e-17 -7.612376031973248e-20
+  hidden position_10_0 -1.6012683914823356e-05
+  hidden translation_11 -1.5932620484355135e-05 5.102485101105003e-10 0
+  hidden rotation_11 0 0 -1 6.405073777189403e-05
+  hidden linearVelocity_11 4.440892201281818e-14 -2.775516559552557e-15 -1.5702601895250834e-15
+  hidden angularVelocity_11 1.854715317862585e-18 3.4256673739072806e-17 -1.4544460304196069e-19
+  translation 16.72 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(75)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370260742e-05
+  hidden translation_7 -1.5930650376182446e-05 -5.101218336633906e-10 0
+  hidden rotation_7 0 0 1 6.404280547424216e-05
+  hidden linearVelocity_7 2.2204460902753334e-14 5.55112027458362e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 6.02775758080192e-20 -1.6382987388092548e-17 -1.8334466071081486e-20
+  hidden position_10_0 -5.6044393701212284e-05
+  hidden translation_11 -1.593065037585212e-05 5.101218336633906e-10 0
+  hidden rotation_11 0 0 -1 6.404280547424216e-05
+  hidden linearVelocity_11 -2.220446630792128e-14 5.550907642171366e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 2.095718992086109e-18 9.973648491822473e-17 -7.364171865732307e-19
+  translation 13.76 -6.51 0
+  rotation 0 0 1 1.5708
+  name "cabinet(76)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 6.405073566122261e-05
+  hidden translation_7 -1.5932620484835207e-05 -5.102480105101392e-10 0
+  hidden rotation_7 0 0 1 6.405073777189403e-05
+  hidden linearVelocity_7 -2.2204458869350527e-14 -2.775621924835507e-15 -1.5702601895250834e-15
+  hidden angularVelocity_7 1.8810571873721463e-18 -4.141915448630929e-17 -2.285104597079874e-19
+  hidden position_10_0 -4.003170978705797e-05
+  hidden translation_11 -1.593262048435514e-05 5.102482880658954e-10 0
+  hidden rotation_11 0 0 -1 6.405073777189403e-05
+  hidden linearVelocity_11 2.2204464391670573e-14 -2.775397364701839e-15 -9.421561137150501e-16
+  hidden angularVelocity_11 -1.954075877778345e-18 -6.125784900537845e-17 -5.684823448107728e-19
+  translation 13.71 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(77)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 6.40507356618732e-05
+  hidden translation_7 -1.5932620484997037e-05 -5.102480105101392e-10 0
+  hidden rotation_7 0 0 1 6.405073777189403e-05
+  hidden linearVelocity_7 -2.2204462298789856e-14 -2.7754986417638907e-15 -1.6330705971060869e-15
+  hidden angularVelocity_7 1.5239098512886512e-19 -4.141366491469051e-17 2.090146401339859e-19
+  hidden position_10_0 -1.6012683914823203e-05
+  hidden translation_11 -1.5932620484355142e-05 5.102485933772272e-10 0
+  hidden rotation_11 0 0 -1 6.405073777189403e-05
+  hidden linearVelocity_11 2.2204458683333753e-14 -2.7756367951774575e-15 -1.5702601895250832e-15
+  hidden angularVelocity_11 1.8547127670482542e-18 3.4256674475812623e-17 2.8126423931540725e-19
+  translation 11.13 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(78)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 5.6044393704124526e-05
+  hidden translation_7 -1.3941042926602896e-05 -3.9065867207810356e-10 0
+  hidden rotation_7 0 0 0.9999999999999999 5.604439047360844e-05
+  hidden linearVelocity_7 -5.551112326217409e-15 -2.7756888862997925e-15 -1.6330705971060867e-15
+  hidden angularVelocity_7 1.8037343553544282e-18 -2.039922074788906e-17 -4.661182821434597e-19
+  hidden position_10_0 -3.202536782964639e-05
+  hidden translation_11 -1.3941042926044903e-05 3.906589496338597e-10 0
+  hidden rotation_11 0 0 -1 5.604439047360844e-05
+  hidden linearVelocity_11 5.55111117983197e-15 -2.775714740927564e-15 -1.6330705971060867e-15
+  hidden angularVelocity_11 -1.6798410207160953e-18 1.3259346115597371e-17 5.576816324426803e-19
+  translation 6.62 3.23 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(79)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+Cabinet {
+  hidden position_6_0 5.604439370303856e-05
+  hidden translation_7 -1.593065037628674e-05 -5.101218336633906e-10 0
+  hidden rotation_7 0 0 1 6.404280547424216e-05
+  hidden linearVelocity_7 8.881784285962642e-14 5.5510720844925835e-15 -1.0049665212960534e-15
+  hidden angularVelocity_7 6.027628667572054e-20 -1.6382984600543406e-17 1.5286054250709226e-19
+  hidden position_10_0 -5.604439370044518e-05
+  hidden translation_11 -1.593065037566443e-05 5.101218336633906e-10 0
+  hidden rotation_11 0 0 -1 6.404280547424216e-05
+  hidden linearVelocity_11 -8.881784103483334e-14 5.551147761504718e-15 -1.69588100468709e-15
+  hidden angularVelocity_11 1.555991081829553e-20 4.2275415188767464e-18 1.163450095154057e-19
+  translation 38.19 -6.43 0
+  rotation 0 0 1 1.5708
+  name "cabinet(80)"
+  depth 0.7
+  columnsWidths [
+    0.5, 0.25, 0.25
+  ]
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.368627 0.360784 0.392157
+  }
+}
+ConveyorBelt {
+  hidden translation_1 0 0 0.6749686080000006
+  hidden linearVelocity_1 0 0 -1.6484591469634325e-15
+  translation 3.14141 -3.91763 0
+  rotation 0 0 1 3.14159
+  name "conveyor belt(4)"
+  size 8 0.8 0.9
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 6 3.1
+    }
+  }
+  borderHeight 0
+  speed 1
+}
+ConveyorBelt {
+  hidden translation_1 0 0 0.6749686080000006
+  hidden rotation_1 0.02010867138526416 0.9997978002251854 0 6.80906464228557e-79
+  hidden linearVelocity_1 0 0 -1.6484591469634325e-15
+  hidden angularVelocity_1 -7.490682167503626e-94 7.637614223366362e-100 1.1133570045666014e-172
+  translation -5.29859 -2.42763 0.1
+  rotation 0 0 -1 -1.5707953071795862
+  name "conveyor belt(3)"
+  size 8 0.8 0.9
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 6 3.1
+    }
+  }
+  borderHeight 0
+  speed 1
+}
+PlasticCrate {
+  translation -1.39898 -3.91415 5.41788e-14
+  name "plastic crate(5)"
+  size 1 1 0.9
+}
+PlasticCrate {
+  translation -5.46898 2.15585 5.41788e-14
+  name "plastic crate(7)"
+  size 1 1 0.9
+}
+PlasticCrate {
+  translation 24.021 -5.82415 5.41788e-14
+  name "plastic crate(6)"
+  size 1 1 0.9
+}
+SquareManhole {
+  translation 0.560459 -1.782 -0.03
+  rotation 0 0 1 3.14159
+}
+SquareManhole {
+  translation 0.560456 -4.792 -0.03
+  rotation 0 0 1 3.14159
+  name "manhole(1)"
+}
+Table {
+  translation 3.097723 2.013972 0
+  size 1.8 0.8 0.7
+  feetSize 0.05 0.05
+  trayAppearance PBRAppearance {
+    baseColor 0.926 0.912 0.698
+    roughness 0.8
+    metalness 0
+  }
+  legAppearance BrushedAluminium {
+    colorOverride 0.333 0.341 0.325
+  }
+}
+Table {
+  translation 32.4877 -6.03603 0
+  name "table(2)"
+  size 1.8 0.8 0.7
+  feetSize 0.05 0.05
+  trayAppearance PBRAppearance {
+    baseColor 0.926 0.912 0.698
+    roughness 0.8
+    metalness 0
+  }
+  legAppearance BrushedAluminium {
+    colorOverride 0.333 0.341 0.325
+  }
+}
+Table {
+  translation -17.3523 -5.52603 0
+  rotation 0 0 1 -1.5707953071795862
+  name "table(3)"
+  size 1.8 0.8 0.7
+  feetSize 0.05 0.05
+  trayAppearance PBRAppearance {
+    baseColor 0.926 0.912 0.698
+    roughness 0.8
+    metalness 0
+  }
+  legAppearance BrushedAluminium {
+    colorOverride 0.333 0.341 0.325
+  }
+}
+Table {
+  translation -17.3523 3.73397 0
+  rotation 0 0 1 1.01503e-06
+  name "table(5)"
+  size 1.8 0.8 0.7
+  feetSize 0.05 0.05
+  trayAppearance PBRAppearance {
+    baseColor 0.926 0.912 0.698
+    roughness 0.8
+    metalness 0
+  }
+  legAppearance BrushedAluminium {
+    colorOverride 0.333 0.341 0.325
+  }
+}
+Table {
+  translation -13.9823 -0.50603 0
+  rotation 0 0 1 -1.5707953071795862
+  name "table(4)"
+  size 1.8 0.1 0.7
+  feetSize 0.05 0.05
+  trayAppearance PBRAppearance {
+    baseColor 0.878431 0.105882 0.141176
+    roughness 0.8
+    metalness 0
+  }
+  legAppearance BrushedAluminium {
+    colorOverride 0.333 0.341 0.325
+  }
+}
+OfficeChair {
+  hidden position_0_0 -0.10157551753106242
+  hidden linearVelocity_0 3.238412733803417e-09 3.002498479922424e-07 -2.1124015743232484e-06
+  hidden angularVelocity_0 -2.11037689752995e-06 2.2763772563164676e-08 -6.044957278065705e-12
+  hidden rotation_1 0 0 -1 0.10157551753106094
+  hidden linearVelocity_1 6.537962308497033e-07 1.2318628981667057e-06 -2.2979196556129866e-06
+  hidden angularVelocity_1 -2.1101126211798084e-06 1.2353112142808601e-08 -7.404629118724685e-06
+  translation 32.588700088071384 -5.274536546167294 -0.0014149312014527238
+  rotation -0.0007794064507290186 -0.0006990094460866371 -0.9999994519555393 1.4721550723254926
+}
+DesktopComputer {
+  translation 31.94 -6.24 0.71
+  rotation 0 0 1 1.5708
+  name "desktop computer(1)"
+}
+WoodenChair {
+  translation 2.921084 1.648051 0
+  rotation 0 0 1 1.83259
+}
+Monitor {
+  translation 2.520237 2.108887 0.7
+  rotation -7.19233e-09 -9.37323e-09 1 -1.3089953071795861
+}
+Monitor {
+  translation 32.5501 -6.19435 0.7
+  rotation -7.19232e-09 5.51885e-09 -1 -1.8326053071795858
+  name "monitor(2)"
+}
+Monitor {
+  translation -17.4479 -5.25158 0.7
+  rotation 5.09084e-08 2.1087e-08 -1 0.261798
+  name "monitor(1)"
+}
+Keyboard {
+  translation 2.594212 1.8802 0.7
+  rotation 0 0 1 1.83259
+}
+Keyboard {
+  translation -17.1413 -5.34555 0.7
+  rotation 0 0 1 2.87979
+  name "keyboard(1)"
+}
+DesktopComputer {
+  translation 2.331033 2.125086 0
+  rotation 0 0 1 -1.5707953071795862
+}
+ComputerMouse {
+  translation 2.94663 1.914183 0.7
+  rotation 0 0 -1 -1.3089953071795861
+  mass 0
+}
+Table {
+  translation -1.41991 -0.52333 0
+  rotation 0 0 1 -1.5707953071795862
+  name "table(1)"
+  size 1.8 0.8 0.7
+  feetSize 0.05 0.05
+  trayAppearance PBRAppearance {
+    baseColor 0.926 0.912 0.698
+    roughness 0.8
+    metalness 0
+  }
+  legAppearance BrushedAluminium {
+    colorOverride 0.333 0.341 0.325
+  }
+}
+OfficeTelephone {
+  hidden linearVelocity_0 1.9930979023492203e-07 -7.000249829561415e-08 -7.323059400618761e-07
+  hidden angularVelocity_0 1.5305002954504732e-06 4.357653154622594e-06 -2.068161700809078e-11
+  translation -0.27569483676176754 -0.6022862367349309 0.03073257696692113
+  rotation -0.6310119718646223 0.7614910335199312 0.14817320011482635 2.230482453120977
+}
+Wrench {
+  hidden linearVelocity_0 -1.1755346057182539e-10 -2.0811830567629346e-10 -8.937394232099725e-08
+  hidden angularVelocity_0 9.088557511595608e-08 -5.134179347344345e-08 3.2931286986075244e-12
+  translation -1.234938815952085 -0.5757842537225891 0.7054417483388855
+  rotation -0.14205264541276325 0.9898591040337205 -9.633069708966837e-06 -3.141013752428248
+}
+Hammer {
+  hidden linearVelocity_0 2.3960230344762306e-08 -1.3398573241814282e-07 -8.987265836266644e-07
+  hidden angularVelocity_0 1.0307860107150399e-05 1.8432237578140769e-06 -1.277809078345957e-10
+  translation -1.5379463096919543 -0.37091776472611426 0.712493980058045
+  rotation -0.002398570167863348 -0.007007319335010943 0.9999725717922903 1.5527019083331577
+}
+PlatformCart {
+  hidden position_0_0 -0.004286058494067775
+  hidden position2_0_0 4.809845505676429
+  hidden position_0_1 -0.004292732820360048
+  hidden position2_0_1 4.769511974854768
+  hidden position_0_2 4.943697381642594
+  hidden position_0_3 5.095291077762549
+  hidden linearVelocity_0 2.021647294287054e-07 8.95834879258224e-08 -0.00013350254826861364
+  hidden angularVelocity_0 -1.5773285577588503e-05 5.75464199033759e-05 5.54074427339124e-08
+  hidden rotation_2 -0.6140956986017571 0.5593870032411814 -0.556751877916609 4.246498623110715
+  hidden linearVelocity_2 -5.375342466960778e-06 -1.4239288549642832e-06 -0.0001493338369885263
+  hidden angularVelocity_2 3.559811712314206e-05 -0.00013438388197520027 1.1841660768048445e-09
+  hidden rotation_3 -0.5985531190331956 0.5677361285226981 -0.5651635622239737 4.223875935954606
+  hidden linearVelocity_3 -5.353792639853556e-06 -1.4180912466423187e-06 -0.0001492927731693312
+  hidden angularVelocity_3 3.5452522886434e-05 -0.00013384504251437218 1.1571037963795781e-09
+  hidden rotation_4 -0.666073577993454 0.5274201101238336 -0.5274220474496316 4.316773046691709
+  hidden linearVelocity_4 -5.317511999267383e-06 -1.443472573651165e-06 -0.00011258772033144105
+  hidden angularVelocity_4 3.6087136343465145e-05 -0.00013293800219611566 5.584332547988751e-08
+  hidden rotation_5 -0.7231917318841791 0.48836050558915994 -0.48836229944075527 4.393832984425512
+  hidden linearVelocity_5 -5.295969530561997e-06 -1.4376074671005774e-06 -0.00011254665651111257
+  hidden angularVelocity_5 3.594050950054228e-05 -0.00013239943904790898 5.584209532851665e-08
+  translation 0.7428936153450001 1.7425820831270435 -0.002991105136711858
+  rotation 0.0006564573554035317 8.883259967377222e-05 0.9999997805862308 -2.8757799324467075
+}
+LeverValve {
+  hidden position_0_0 -1.599961487865106e-06
+  hidden translation_1 0 3.1999229757288434e-08 -2.560104905846572e-14
+  hidden rotation_1 -1 0 0 1.599915687021006e-06
+  hidden linearVelocity_1 -5.803706509242465e-16 -3.4501765890954494e-11 -1.2521836199673174e-15
+  hidden angularVelocity_1 2.474677282792373e-10 -3.4171137347739564e-16 3.0337839357001506e-13
+  translation -0.73 -0.83 0.502
+  rotation 0 0 1 3.14159
+}
+Radiator {
+  translation 0.528902 2.341308 0.33
+  rotation 0 0 1 -1.5707953071795862
+  numberOfFins 16
+}
+WoodenPalletStack {
+  translation 2.8 -0.23 0
+  rotation 0 1 0 0
+  palletNumber 5
+  palletSize 1 0.8 0.11
+}
+Cabinet {
+  hidden position_6_0 4.4842956564359e-05
+  hidden translation_7 -8.923748353316679e-06 -2.0008325551934547e-10 0
+  hidden rotation_7 0 0 1 4.484295941780993e-05
+  hidden linearVelocity_7 -1.3877795662297826e-15 -1.3877443528699185e-15 -1.50744978194408e-15
+  hidden angularVelocity_7 1.78678503857038e-18 -1.9726939539105192e-17 1.5252061783089924e-19
+  hidden position_10_0 0.006906073181630966
+  hidden translation_11 0.0011653893946794688 4.014627722259689e-06 0
+  hidden rotation_11 0 0 1 0.006889734658047399
+  hidden linearVelocity_11 1.7347329295421123e-16 -1.3877479094723502e-15 -1.0049665212960534e-15
+  hidden angularVelocity_11 1.6355783671109134e-19 5.431849814837215e-17 -1.608765468526506e-19
+  translation -0.4 2.47 0
+  rotation 0 0 1 -1.5707953071795862
+  name "cabinet(87)"
+  layout [
+    "RightSidedDoor (1, 1, 1, 5, 1.5)"
+    "LeftSidedDoor (2, 1, 2, 5, 1.5)"
+  ]
+  primaryAppearance GlossyPaint {
+    baseColor 0.729 0.741 0.713
+  }
+  secondaryAppearance GlossyPaint {
+    baseColor 0.1 0.3 0.8
+  }
+}
+CardboardBox {
+  translation -1.21 2.18 0.3
+  rotation 0 0 1 -1.5707953071795862
+}
+CardboardBox {
+  translation -1.198389 2.100678 0.75
+  rotation 0 0 -1 -0.523595307179586
+  name "cardboard box(1)"
+  size 0.6 0.4 0.3
+}
+RectangleArena {
+  floorSize 100 13
+  floorAppearance ThreadMetalPlate {
+  }
+  wallThickness 0.3
+  wallHeight 2.5
+  wallAppearance RoughPolymer {
+    baseColor 0.870588 0.866667 0.854902
+  }
+}
+CardboardBox {
+  translation -6.15 1.3 0.3
+  name "cardboard box(5)"
+}
+RubberDuck {
+  hidden linearVelocity_0 -1.7136797733248282e-17 2.50662598625481e-17 -9.166881743517017e-08
+  hidden angularVelocity_0 -2.4293954847773397e-15 -9.445452336242307e-16 -2.8656085962162574e-16
+  translation -25.429197115571192 0.25954901985922846 0.020438030197521505
+  rotation -6.493856767753253e-12 -6.780937650208284e-12 -1 5.8552951717009e-06
+}
+WoodenPalletStack {
+  translation -49.39 3.68 0
+  name "wooden pallet stack(2)"
+}
+WoodenPalletStack {
+  translation -49.39 2.67 0
+  name "wooden pallet stack(3)"
+}
+CardboardBox {
+  translation -16.06 0 0.3
+  name "cardboard box(2)"
+}
+CardboardBox {
+  translation -9.06 -0.12 0.3
+  name "cardboard box(6)"
+}
+CardboardBox {
+  translation -9.06 -0.08 0.92
+  name "cardboard box(7)"
+}
+CardboardBox {
+  translation -16.06 -0.66 0.3
+  name "cardboard box(3)"
+}
+CardboardBox {
+  translation -16.06 -0.66 0.92
+  name "cardboard box(4)"
+}
+StraightStairs {
+  translation -34.74 -0.02 0
+  stepSize 0.2 1.1 0.03
+  stepRise 0.13
+  nSteps 20
+  stringerWidth 0.03
+  stepAppearance ThreadMetalPlate {
+  }
+  stringerAppearance BrushedAluminium {
+  }
+  leftRail [
+    StraightStairsRail {
+      run 3.84
+      rise 2.5
+      newelHeight 0.8
+      balusterHeight 0.62
+      appearance Rubber {
+      }
+    }
+  ]
+  rightRail [
+    StraightStairsRail {
+      run 3.84
+      rise 2.5
+      newelHeight 0.8
+      balusterHeight 0.62
+      appearance Rubber {
+      }
+    }
+  ]
+}
+PlatformCart {
+  hidden position_0_0 -4.362304660413879e-05
+  hidden position2_0_0 -52.38107370941371
+  hidden position_0_1 2.7836310187294472e-05
+  hidden position2_0_1 -52.37959935030044
+  hidden position_0_2 -52.38108687925685
+  hidden position_0_3 -52.37961247605415
+  hidden linearVelocity_0 -2.2051016036116622e-07 -1.34059051092205e-08 -0.0001335025476450204
+  hidden angularVelocity_0 8.95517572780503e-08 -5.966889402697886e-05 2.398212735526549e-10
+  hidden rotation_2 0.3700304140041047 -0.656922952453599 0.6569092229917292 2.4327312930392586
+  hidden linearVelocity_2 5.54761427539265e-06 -4.949585734833997e-09 -0.0001493330511455584
+  hidden angularVelocity_2 1.2730456801398775e-07 0.0001386906380523814 1.0567612875814712e-10
+  hidden rotation_3 0.37060127337725113 -0.6567488018352684 0.6567615301303047 2.431809822376294
+  hidden linearVelocity_3 5.547465200123294e-06 -4.673266802538261e-09 -0.00014929355246007638
+  hidden angularVelocity_3 1.1314086523569439e-07 0.00013868691228196086 -5.575857215893576e-11
+  hidden rotation_4 0.37003786232767794 -0.6569127834817798 0.6569151964616002 2.432768600950178
+  hidden linearVelocity_4 5.496948895921762e-06 -4.7402954172055714e-09 -0.00011258694092195572
+  hidden angularVelocity_4 1.1847023987872952e-07 0.0001374240016989068 6.729188567825971e-10
+  hidden rotation_5 0.3705884858071425 -0.6567575676932558 0.6567599801029351 2.431800161028449
+  hidden linearVelocity_5 5.4967997535375075e-06 -4.740317652826386e-09 -0.0001125474422381703
+  hidden angularVelocity_5 1.1846962296592213e-07 0.0001374202731333326 6.729107241786817e-10
+  translation -19.705295678396414 0.0002828198672099554 -0.00299110513596626
+  rotation 0.0015126273001128234 -0.9938147001073019 -0.11104077543535454 0.001321368533241825
+  name "platform cart(1)"
+}
+PlatformCart {
+  hidden position_0_0 -0.02325197951262188
+  hidden position2_0_0 9.143581076904379
+  hidden position_0_1 -0.02295660084299793
+  hidden position2_0_1 8.903024787641453
+  hidden position_0_2 9.132505785377408
+  hidden position_0_3 8.903985863515585
+  hidden linearVelocity_0 -1.4530019057894965e-07 -1.2474189532905158e-07 -0.00013350255942015158
+  hidden angularVelocity_0 1.4788105742160978e-06 -5.9650909506829136e-05 3.004831245840543e-07
+  hidden rotation_2 -0.107670058377031 -0.7018371020438875 0.7041532792820924 3.323733284472998
+  hidden linearVelocity_2 5.683228290308516e-06 -6.130356999458511e-08 -0.000149336923233684
+  hidden angularVelocity_2 1.5664718214099685e-06 0.00014208097760448407 5.557673725310631e-09
+  hidden rotation_3 -0.19317708754562046 -0.6916570934622117 0.6959116882987357 3.492446221802913
+  hidden linearVelocity_3 5.562413139194327e-06 -6.157224209321798e-08 -0.000149289830251559
+  hidden angularVelocity_3 1.506571232498737e-06 0.0001390606119119766 4.075096798936737e-09
+  hidden rotation_4 -0.10506887279624313 -0.7031916166005022 0.7031941995722796 3.350961447938346
+  hidden linearVelocity_4 5.628355299346017e-06 1.2370458163578684e-07 -0.00011259066489518451
+  hidden angularVelocity_4 -3.094117906932092e-06 0.0001407091310595589 3.0093306623164566e-07
+  hidden rotation_5 -0.18514844923856202 -0.6948800272193518 0.6948825796609012 3.5077419367322316
+  hidden linearVelocity_5 5.507539471018084e-06 1.2094707668162275e-07 -0.00011254357192663215
+  hidden angularVelocity_5 -3.0251815662881154e-06 0.00013768872914349728 3.009264281994646e-07
+  translation 15.68061937920582 -3.0731175706962417 -0.0029911051444546644
+  rotation 0.00074764726927495 -0.057449056430427387 0.9983481591803604 0.02285702322316919
+  name "platform cart(2)"
+}
+TrafficCone {
+  translation -14.81 0.87 0
+}
+TrafficCone {
+  translation -15.46 0.87 0
+  name "traffic cone(1)"
+}
+TrafficCone {
+  translation -16.05 0.87 0
+  name "traffic cone(2)"
+}
+TrafficCone {
+  translation -16.69 0.87 0
+  name "traffic cone(3)"
+}
+TrafficCone {
+  translation -17.35 0.87 0
+  name "traffic cone(4)"
+}
+TrafficCone {
+  translation -45.69 3.38 0
+  name "traffic cone(5)"
+}
+WorkBarrier {
+  translation -14.42 0 0
+}
+WorkBarrier {
+  translation -14.42 -1.19 0
+  name "work barrier(1)"
+}
+WorkBarrier {
+  translation -15.34 -2.08 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(2)"
+}
+WorkBarrier {
+  translation -16.71 -2.08 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(3)"
+}
+WorkBarrier {
+  translation -18.09 -2.08 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(4)"
+}
+WorkBarrier {
+  translation -19.5 -2.08 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(5)"
+}
+WorkBarrier {
+  translation -20.36 -1.09 0
+  rotation 0 0 1 3.14159
+  name "work barrier(6)"
+}
+WorkBarrier {
+  translation -20.36 0.12 0
+  rotation 0 0 1 3.14159
+  name "work barrier(7)"
+}
+WorkBarrier {
+  translation -19.67 0.7 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(8)"
+}
+WorkBarrier {
+  translation -18.39 0.7 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(9)"
+}
+WorkBarrier {
+  translation -49.25 1.35998 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(10)"
+}
+WorkBarrier {
+  translation -47.94 1.35998 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(11)"
+}
+WorkBarrier {
+  translation -46.64 1.35998 0
+  rotation 0 0 1 -1.5707953071795862
+  name "work barrier(12)"
+}
+WorkBarrier {
+  translation -45.66 2.26998 0
+  rotation 0 0 1 3.14159
+  name "work barrier(13)"
+}
+WorkBarrier {
+  translation -45.66 4.42998 0
+  rotation 0 0 1 3.14159
+  name "work barrier(14)"
+}
+WorkBarrier {
+  translation -45.66 5.70998 0
+  rotation 0 0 1 3.14159
+  name "work barrier(15)"
+}
+RoundTable {
+  translation 47.59 4.2 0
+}
+FloorLight {
+  translation 49.53 6.01 0
+}
+Sofa {
+  translation 49.46 4.21 0
+  rotation 0 0 1 3.14159
+}
+Sofa {
+  translation 45.76 4.21 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "sofa(2)"
+}
+Sofa {
+  translation 47.59 6.02 0
+  rotation 0 0 1 -1.5707953071795862
+  name "sofa(1)"
+}
+PottedTree {
+  translation 44.94 2.22 0
+}
+PanelWithTubes {
+  translation 44.85 6.07 0
+  rotation 0 0 1 3.14159
+}
+PanelWithTubes {
+  translation 44.85 5.31 0
+  rotation 0 0 1 3.14159
+  name "panel with tubes(1)"
+}
+PanelWithTubes {
+  translation 44.85 4.54 0
+  rotation 0 0 1 3.14159
+  name "panel with tubes(2)"
+}
+PanelWithTubes {
+  translation 44.85 3.77 0
+  rotation 0 0 1 3.14159
+  name "panel with tubes(3)"
+}
+PanelWithTubes {
+  translation 44.85 3 0
+  rotation 0 0 1 3.14159
+  name "panel with tubes(4)"
+}
+PanelWithTubes {
+  translation 45.69 2.16 0
+  rotation 0 0 1 -1.5707953071795862
+  name "panel with tubes(5)"
+}
+PanelWithTubes {
+  translation 46.46 2.16 0
+  rotation 0 0 1 -1.5707953071795862
+  name "panel with tubes(6)"
+}
+PanelWithTubes {
+  translation 47.24 2.16 0
+  rotation 0 0 1 -1.5707953071795862
+  name "panel with tubes(7)"
+}
+PanelWithTubes {
+  translation 48.01 2.16 0
+  rotation 0 0 1 -1.5707953071795862
+  name "panel with tubes(8)"
+}
+OilBarrel {
+  translation 18.84 -6.2 0.44
+}
+OilBarrel {
+  translation 18.84 -5.53 0.44
+  name "oil barrel(1)"
+}
+OilBarrel {
+  translation 18.84 -4.85 0.44
+  name "oil barrel(2)"
+}
+OilBarrel {
+  translation 19.8 -4.81 0.44
+  name "oil barrel(3)"
+}
+OilBarrel {
+  translation 19.8 -5.39 0.44
+  name "oil barrel(4)"
+}
+OilBarrel {
+  translation 19.8 -6.11 0.44
+  name "oil barrel(5)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007779974663422256 -0.00011641353939896505 -0.00023024496153345805
+  hidden angularVelocity_0 0.00031119803915260845 0.0020797512729881997 6.060942740988782e-11
+  translation 25.416794382610526 -6.374775539814193 -0.004682357913868951
+  rotation 0.004244330784801393 0.00315736850196706 0.9999860082422813 1.5653445084201794
+  name "fire extinguisher(1)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007780009991548447 -0.0001163899269974424 -0.00023024496153349657
+  hidden angularVelocity_0 0.0003111349182245917 0.0020797607169443424 6.060943341558964e-11
+  translation 8.896855820667204 -6.374790510315 -0.004682357913869006
+  rotation 0.00424421811394594 0.0031573847352039846 0.9999860086692389 1.5653748581557367
+  name "fire extinguisher(4)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 1.6202496099934928e-05 -3.017896653143928e-08 -0.00020861894294982232
+  hidden angularVelocity_0 -6.456938925693685e-08 2.785820600032919e-05 -1.1023697944196423e-06
+  translation -4.754677536000876 -6.374186203559132 -0.0045614124677111345
+  rotation 0.017301298896389136 0.016010697824529463 0.9997221226979373 1.5634604173180018
+  name "fire extinguisher(5)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007756718529010083 -0.0001310165882999382 -0.00023024496153342176
+  hidden angularVelocity_0 0.00035023506798778376 0.0020735344159759543 6.060949918841268e-11
+  translation -14.964340893013182 -6.396508429810573 -0.004682357913869006
+  rotation 0.00431478319406113 0.0031472179470429006 0.9999857387308991 1.546547184629909
+  name "fire extinguisher(6)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007786228035912576 -0.00011215480158289042 -0.00023024496153281374
+  hidden angularVelocity_0 0.00029981353498814684 0.002081422931868264 6.06095123183498e-11
+  translation -24.93022962458146 -6.3700069508607235 -0.004682357913869062
+  rotation 0.004224072976810305 0.003160287177788081 0.9999860847994038 1.570816193260773
+  name "fire extinguisher(7)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007786228035908022 -0.00011215480158293654 -0.00023024496153334535
+  hidden angularVelocity_0 0.0002998135349882766 0.0020814229318670864 6.06094823461419e-11
+  translation -35.61022962458162 -6.370046950860712 -0.004682357913869062
+  rotation 0.0042240729768107535 0.0031602871777885308 0.9999860847994038 1.5708161932607605
+  name "fire extinguisher(8)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007786226597470254 -0.00011215580020800348 -0.00023024496153349698
+  hidden angularVelocity_0 0.00029981620452367464 0.002081422547342182 6.060945566505405e-11
+  translation -38.62092574532559 -6.370012050664884 -0.004682357913869062
+  rotation 0.00422407771214501 0.003160286495542591 0.9999860847815573 1.5708149107249727
+  name "fire extinguisher(9)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007786228035908707 -0.0001121548015828666 -0.00023024496153341962
+  hidden angularVelocity_0 0.00029981353498812483 0.002081422931867205 6.060954017231359e-11
+  translation 35.429770375418386 -6.369966950860717 -0.004682357913869062
+  rotation 0.004224072976810757 0.0031602871777885186 0.9999860847994038 1.5708161932607656
+  name "fire extinguisher(2)"
+}
+FireExtinguisher {
+  hidden linearVelocity_0 0.0007786228035908707 -0.0001121548015828666 -0.00023024496153341962
+  hidden angularVelocity_0 0.00029981353498812483 0.002081422931867205 6.060954017231359e-11
+  translation 45.45977037541839 -6.369966950860717 -0.004682357913869062
+  rotation 0.004224072976810757 0.0031602871777885186 0.9999860847994038 1.5708161932607656
+  name "fire extinguisher(3)"
+}
+WoodenPalletStack {
+  translation 16.07 -6.09 0
+  name "wooden pallet stack(4)"
+}
+EmergencyExitSign {
+  translation 43.79 -6.46 2.17999
+  rotation 3.3905113482557537e-09 0.70710528118436 0.707108281185553 3.14159
+}
+Pose {
+  translation 1.77 6.5 1.05
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.23 0.01 0.3
+      }
+    }
+  ]
+}
+AdvertisingBoard {
+  translation -47.85 -6.58 0.94
+  rotation 0 0 1 1.5708
+  frontTexture [
+    "https://www.peakgrantmaking.org/wp-content/uploads/2019/01/No-Pain-No-Gain.jpg"
+  ]
+  displayWidth 1
+  displayHeight 1
+}
+SolidBox {
+  translation -0.135 -0.0323 0.305
+  rotation 1 0 0 1.5707963267948966
+  size 1.5 0.61 0.4
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 1.015 -0.0323 0.45
+  rotation 1 0 0 1.5707963267948966
+  name "box(5)"
+  size 0.8 0.91 0.4
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 0.8 0.329556 0.819996
+  rotation 1 0 0 2.617993326794896
+  name "box(6)"
+  size 0.3 0.5 0.02
+  contactMaterial "slope"
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 0.96 0.339556 0.837316
+  rotation 0.694746421648147 -0.1861573591797 -0.694746606490694 2.773491823864185
+  name "box(7)"
+  size 0.05 0.5 0.02
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 0.64 0.339556 0.837316
+  rotation 0.694746421648147 -0.1861573591797 -0.694746606490694 2.773491823864185
+  name "box(8)"
+  size 0.05 0.5 0.02
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 0.64 0.239196 0.583496
+  rotation 0.654654231301536 0.377963904659711 -0.654653438250637 3.86432712001869
+  name "box(9)"
+  size 0.05 0.5 0.02
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 0.96 0.239196 0.583496
+  rotation 0.654654231301536 0.377963904659711 -0.654653438250637 3.86432712001869
+  name "box(10)"
+  size 0.05 0.5 0.02
+  appearance GalvanizedMetal {
+  }
+}
+SolidBox {
+  translation 1.77 -0.11 0.375
+  name "box(2)"
+  size 0.2 0.18 0.75
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 0.7 0.7
+    }
+  }
+}
+SolidBox {
+  translation 1.77 2.43 0.375
+  name "box(3)"
+  size 0.2 0.18 0.75
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 0.7 0.7
+    }
+  }
+}
+FireExtinguisher {
+  hidden linearVelocity_0 -1.3065451990247252e-05 -3.9701287431837315e-05 -0.0002463714272194393
+  hidden angularVelocity_0 0.00021109188477544968 -0.0004186394670667415 -5.385268513715571e-05
+  translation -0.521728470303622 1.8704814848173228 0.09187714988039075
+  rotation 0.6038384761640512 -0.40224081536373774 0.6881725228163298 -2.6027821495324344
+}
+ConveyorBelt {
+  hidden translation_1 0 0 0.44996860800000016
+  hidden linearVelocity_1 0 0 -6.252776074688881e-16
+  translation 3.18 -1.05 0
+  rotation 0 0 1 3.14159
+  size 8 0.7 0.6
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 6 3.1
+    }
+  }
+  borderHeight 0
+  speed 0.2
+}
+ConveyorBelt {
+  hidden translation_1 0 0 0.11246860800000058
+  hidden linearVelocity_1 0 0 -1.6484591469634325e-15
+  translation 1.77 2.55 0.75
+  rotation 0 0 1 -1.5707953071795862
+  name "conveyor belt(2)"
+  size 8 0.15 0.15
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 6 3.1
+    }
+  }
+  borderHeight 0
+  speed 0.2
+}
+ConveyorBelt {
+  hidden translation_1 1.280046099709987e-11 2.9554136915521667e-13 0.1868407261420823
+  hidden rotation_1 0.02375799571698457 -0.999717738984115 3.2824048109782616e-08 0.00023828269067257825
+  hidden linearVelocity_1 -1.1681267735599478e-13 -1.626351125322879e-15 8.175864536500344e-10
+  hidden angularVelocity_1 -8.742601990777712e-12 3.778211853915858e-10 -3.1116837104074427e-16
+  translation 0 0.69 0
+  name "conveyor belt(1)"
+  size 6 0.5 0.25
+  appearance CorrugatedMetal {
+    textureTransform TextureTransform {
+      scale 6 3.1
+    }
+  }
+  borderHeight 0
+  speed 0
+  timer 90
+}
+PlasticCrate {
+  hidden linearVelocity_0 -5.657865865659e-09 -1.3529784791274127e-10 -5.911769450220563e-07
+  hidden angularVelocity_0 2.133791948192229e-12 1.2143448724988418e-10 7.61286053366016e-16
+  translation 0.5973144641550157 0.6660079266236737 0.24909055718169298
+  rotation 0.02355344483550388 -0.9912103229418681 0.13018191475722898 0.00024050056424508682
+  size 0.6 0.45 0.4
+  mass 1
+}
+PlasticCrate {
+  hidden linearVelocity_0 -5.657973550908627e-09 -1.3529617727268743e-10 -5.907242921804957e-07
+  hidden angularVelocity_0 2.110607390127054e-12 1.2143531352536425e-10 8.181645625240824e-16
+  translation -0.594214832070073 0.6785572391446023 0.24880678755229316
+  rotation 0.02006900218490104 -0.8466858142388715 0.5317145541716548 0.0002815530539224823
+  name "plastic crate(1)"
+  size 0.6 0.45 0.4
+  mass 1
+}
+PlasticCrate {
+  hidden linearVelocity_0 -5.658031363299361e-09 -1.3472416631436789e-10 -5.904662693297625e-07
+  hidden angularVelocity_0 -1.3698105543015568e-12 1.2145737931792183e-10 -4.73682575069581e-17
+  translation -1.2738313339576461 0.703774883860385 0.24864503517008055
+  rotation 0.00020616723213515443 -0.013691231251525219 0.9999062494463618 0.017414784860656996
+  name "plastic crate(2)"
+  size 0.6 0.45 0.4
+  mass 1
+}
+PlasticCrate {
+  hidden linearVelocity_0 -5.658124723474114e-09 -1.353891238588514e-10 -5.900989018527834e-07
+  hidden angularVelocity_0 2.6578869756750977e-12 1.2142177311842826e-10 9.812903908039034e-16
+  translation -2.239829629833412 0.6694358257048151 0.24841472506593296
+  rotation 0.0023070982832139176 -0.09202676621959148 -0.9957538609499218 0.0025903237646590738
+  name "plastic crate(3)"
+  size 0.6 0.45 0.4
+  mass 1
+}
+PlasticCrate {
+  hidden linearVelocity_0 -5.657811476110489e-09 -1.3530043454059222e-10 -5.914056608276615e-07
+  hidden angularVelocity_0 2.1559182827723496e-12 1.2143393008841898e-10 8.56602110820137e-16
+  translation 1.1989279762241525 0.6786822621191428 0.2492339425585812
+  rotation 0.022548270585522303 -0.9466694521183148 -0.32141643380451385 0.0002518157985749725
+  name "plastic crate(4)"
+  size 0.6 0.45 0.4
+  mass 1
+}
+TJoint {
+  translation 13.72 -1.43 0.4
+  scale 15 5 5
+}
+TJoint {
+  translation 16.94 -1.43 0.4
+  name "T joint pipe(1)"
+  scale 15 5 5
+}
+TJoint {
+  translation 20.17 -1.43 0.4
+  name "T joint pipe(2)"
+  scale 15 5 5
+}
+TJoint {
+  translation 22.32 -2.63 0.4
+  rotation 0 0 1 -1.5707953071795862
+  name "T joint pipe(3)"
+  scale 6 5 5
+}
+TJoint {
+  translation 11.56 -2.63 0.4
+  rotation 0 0 -0.9999999999999999 1.5707953071795862
+  name "T joint pipe(5)"
+  scale 6 5 5
+}
+TJoint {
+  translation 22.32 -4.89 0.4
+  rotation 0 0 1 -1.5707953071795862
+  name "T joint pipe(4)"
+  scale 15.2 5 5
+}
+TJoint {
+  translation 11.55 -4.89 0.4
+  rotation 0 0 1 -1.5707953071795862
+  name "T joint pipe(6)"
+  scale 15.2 5 5
+}
+Door {
+  hidden translation_5 0.0014978685771698808 0.0001558870127522649 2.220446049250313e-15
+  hidden rotation_5 0 0 -1 0.0010479723135564
+  hidden linearVelocity_5 4.4437369871270356e-14 -5.024607719119459e-15 -9.813430308147205e-16
+  hidden angularVelocity_5 4.773056892393426e-18 1.0823770164684293e-17 -1.0755678903294423e-15
+  translation 44.29 -6.62 0
+  rotation 0 0 1 1.5708
+  position -0.0010479723136160857
+  doorAppearance GlossyPaint {
+    baseColor 0.16 0.16 0.16
+  }
+  frameAppearance GlossyPaint {
+    baseColor 0.32 0.32 0.32
+  }
+  doorHandle DoorKnob {
+  }
+}
+Door {
+  hidden translation_5 0.001497868577171324 -0.000155887012752709 2.220446049250313e-15
+  hidden rotation_5 0 0 1 0.0010479723135564
+  hidden linearVelocity_5 -4.443735956327108e-14 -5.0248740442958896e-15 -1.168265512874667e-15
+  hidden angularVelocity_5 1.1716132264771258e-19 -1.5116296035370174e-17 1.075023192024714e-15
+  translation 43.3 -6.62 0
+  rotation 0 0 1 1.5708
+  name "door(1)"
+  position 0.0010479723136191303
+  jointAtLeft FALSE
+  doorAppearance GlossyPaint {
+    baseColor 0.16 0.16 0.16
+  }
+  frameAppearance GlossyPaint {
+    baseColor 0.32 0.32 0.32
+  }
+  doorHandle DoorKnob {
+  }
+}
+LJoint {
+  translation 11.77 -1.65 0.51
+  rotation 1 0 0 1.5708
+  scale 5 5 5
+}
+LJoint {
+  translation 22.1 -1.65 0.51
+  rotation -0.5773509358554485 0.5773489358556708 0.5773509358554485 -2.094395307179586
+  name "L joint pipe(1)"
+  scale 5 5 5
+}
+ElectricalCabinet {
+  translation 26.21 6.25 0
+  rotation 0 0 1 -1.5707953071795862
+}
+ElectricalCabinet {
+  translation 26.88 6.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "electrical cabinet(88)"
+}
+ElectricalCabinet {
+  translation 27.58 6.25 0
+  rotation 0 0 1 -1.5707953071795862
+  name "electrical cabinet(81)"
+}
+OilBarrel {
+  translation -49.52 6.01 0.44
+  name "oil barrel(6)"
+}
+OilBarrel {
+  translation -48.89 6.01 0.44
+  name "oil barrel(7)"
+}
+OilBarrel {
+  translation -48.89 5.23 0.44
+  name "oil barrel(8)"
+}
+OilBarrel {
+  translation -48.24 5.23 0.44
+  name "oil barrel(10)"
+}
+OilBarrel {
+  translation -48.24 5.99 0.44
+  name "oil barrel(11)"
+}
+OilBarrel {
+  translation -47.56 5.99 0.44
+  name "oil barrel(12)"
+}
+OilBarrel {
+  translation -47.56 5.32 0.44
+  name "oil barrel(13)"
+}
+OilBarrel {
+  translation -46.91 5.32 0.44
+  name "oil barrel(14)"
+}
+OilBarrel {
+  translation -46.91 6.03 0.44
+  name "oil barrel(15)"
+}
+OilBarrel {
+  translation -49.56 5.23 0.44
+  name "oil barrel(9)"
+}
+OilBarrel {
+  translation -49.56 4.6 0.44
+  name "oil barrel(16)"
+}
+OilBarrel {
+  translation -48.86 4.55 0.44
+  name "oil barrel(17)"
+}
+LD90 {
+  translation 48 -5 0
+}

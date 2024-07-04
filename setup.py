@@ -10,6 +10,8 @@ data_files.append(('share/' + package_name + '/protos/meshes', ['protos/meshes/L
 data_files.append(('share/' + package_name + '/protos/textures', ['protos/textures/sick_lms291_roughness.jpg']))
 data_files.append(('share/' + package_name + '/protos/textures', ['protos/textures/sick_lms291.png']))
 data_files.append(('share/' + package_name + '/worlds', ['worlds/my_ld90.wbt']))
+data_files.append(('share/' + package_name + '/worlds', ['worlds/contest.wbt']))
+data_files.append(('share/' + package_name + '/worlds', ['worlds/no_human.wbt']))
 data_files.append(('share/' + package_name + '/resource', ['resource/ros2control.yaml']))
 data_files.append(('share/' + package_name + '/resource', ['resource/LD90.urdf']))
 data_files.append(('share/' + package_name + '/launch', ['launch/robot_launch.py']))
