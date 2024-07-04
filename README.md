@@ -58,3 +58,6 @@ Voxel Visualisation
 ros2 run nav2_costmap_2d nav2_costmap_2d_markers voxel_grid:=/global_costmap/voxel_grid visualization_marker:=/global_cost_map_voxel
 
 ```
+
+![image](https://github.com/inmo-jang/webots_ros2_ld90/assets/42867523/55ae909a-a74b-40fb-ba78-06a6bfac902c)
+* This version can avoid unseen obstacles!
