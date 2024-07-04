@@ -64,7 +64,7 @@ bt_navigator:
     # odom_topic: odom
     # bt_loop_duration: 10
     # default_server_timeout: 20
-    # default_nav_to_pose_bt_xml: /home/solarbean23/Desktop/final/test1.xml
+    default_nav_through_poses_bt_xml: /home/solarbean23/Desktop/test1.xml
     # nav2_bt_navigator/navigate_to_pose_w_replanning_and_recovery.xml
     # nav2_bt_navigator/navigate_through_poses_w_replanning_and_recovery.xml
     # They can be set here or via a RewrittenYaml remap from a parent launch file to Nav2.
@@ -154,7 +154,15 @@ controller_server:
       yaw_goal_tolerance: 0.25
     # DWB parameters
     FollowPath:
-      plugin: "dwb_core::DWBLocalPlanner"
+      plugin: "nav2_rotation_shim_controller::RotationShimController"
+      primary_controller: "dwb_core::DWBLocalPlanner"
+      angular_dist_threshold: 0.785
+      forward_sampling_distance: 0.5
+      rotate_to_heading_angular_vel: 1.8
+      max_angular_accel: 3.2
+      simulate_ahead_time: 1.0
+    # FollowPath:
+    #   plugin: "dwb_core::DWBLocalPlanner"
       debug_trajectory_details: True
       min_vel_x: 0.0
       min_vel_y: 0.0
@@ -208,32 +216,31 @@ local_costmap:
       height: 3
       resolution: 0.06
       robot_radius: 0.175
-      plugins: ["static_layer", "inflation_layer"]
-      # plugins: ["static_layer", "voxel_layer", "inflation_layer"]
+      plugins: ["static_layer", "voxel_layer", "inflation_layer"]
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 4.0
-        inflation_radius: 0.8 # 0.45
-      # voxel_layer:
-      #   plugin: "nav2_costmap_2d::VoxelLayer"
-      #   enabled: True
-      #   publish_voxel_map: True
-      #   origin_z: 0.0
-      #   z_resolution: 0.05
-      #   z_voxels: 16
-      #   max_obstacle_height: 2.0
-      #   mark_threshold: 0
-      #   observation_sources: scan
-      #   scan:
-      #     topic: scan
-      #     max_obstacle_height: 2.0
-      #     clearing: True
-      #     marking: True
-      #     data_type: "LaserScan"
-      #     raytrace_max_range: 3.0
-      #     raytrace_min_range: 0.0
-      #     obstacle_max_range: 2.5
-      #     obstacle_min_range: 0.0
+        inflation_radius: 0.45
+      voxel_layer:
+        plugin: "nav2_costmap_2d::VoxelLayer"
+        enabled: True
+        publish_voxel_map: True
+        origin_z: 0.0
+        z_resolution: 0.05
+        z_voxels: 16
+        max_obstacle_height: 2.0
+        mark_threshold: 0
+        observation_sources: scan
+        scan:
+          topic: scan
+          max_obstacle_height: 2.0
+          clearing: True
+          marking: True
+          data_type: "LaserScan"
+          raytrace_max_range: 3.0
+          raytrace_min_range: 0.0
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
         map_subscribe_transient_local: True
@@ -247,58 +254,44 @@ global_costmap:
       global_frame: map
       robot_base_frame: base_link
       use_sim_time: True
-      # robot_radius: 0.175
-      robot_radius: 0.35
+      robot_radius: 0.175
       resolution: 0.06
       track_unknown_space: true
-      plugins: ["static_layer", "obstacle_layer", "obstacle_vertical_layer", "inflation_layer"]
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: True
         observation_sources: scan
         scan:
-          topic: /scan
+          topic: scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
-          raytrace_max_range: 10.0
-          raytrace_min_range: 0.4
-          obstacle_max_range: 9.5
-          obstacle_min_range: 0.4
-      obstacle_vertical_layer:
-        plugin: "nav2_costmap_2d::ObstacleLayer"
-        enabled: True
-        observation_sources: scan2
-        scan2:
-          topic: /scan2
-          max_obstacle_height: 5.0
-          clearing: True
-          marking: True
-          data_type: "LaserScan"
-          raytrace_max_range: 5.0
+          raytrace_max_range: 3.0
           raytrace_min_range: 0.0
-          obstacle_max_range: 4.5
-          obstacle_min_range: 0.0          
+          obstacle_max_range: 2.5
+          obstacle_min_range: 0.0
       static_layer:
         plugin: "nav2_costmap_2d::StaticLayer"
         map_subscribe_transient_local: True
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 4.0
-        inflation_radius: 0.8 # 0.45
+        inflation_radius: 0.45
       always_send_full_costmap: True
 
 planner_server:
   ros__parameters:
     expected_planner_frequency: 20.0
-    use_sim_time: True
+    use_sim_time: False
     planner_plugins: ["GridBased"]
     GridBased:
       plugin: "nav2_navfn_planner/NavfnPlanner"
       tolerance: 0.5
-      use_astar: true # 기존 false에서 수정
-      allow_unknown: true
+      use_astar: true # false
+      allow_unknown: true        
+
 
 smoother_server:
   ros__parameters:
@@ -381,28 +374,28 @@ slam_toolbox:
     odom_frame: odom
     map_frame: map
     base_frame: base_link
-    scan_topic: /scan 
+    scan_topic: /scan
     use_map_saver: true
     mode: mapping
 
     debug_logging: false
     throttle_scans: 1
-    transform_publish_period: 0.02 #if 0 never publishes odometry
+    transform_publish_period: 0.02 #0.02 #if 0 never publishes odometry
     map_update_interval: 0.5
     resolution: 0.05
-    max_laser_range: 12.0 #for rastering images
-    minimum_time_interval: 0.25
-    transform_timeout: 0.2
+    max_laser_range: 20.0 # 12.0 기존에서 수정
+    minimum_time_interval: 0.25 # 0.25 기존에서 수정
+    transform_timeout: 0.2 # 0.2 기존에서 수정
     tf_buffer_duration: 30.
     stack_size_to_use: 40000000 #// program needs a larger stack size to serialize large maps
     enable_interactive_mode: true
 
     # General Parameters
-    use_scan_matching: false #true
+    use_scan_matching: false # true에서 수정
     use_scan_barycenter: true
     minimum_travel_distance: 0.0
     minimum_travel_heading: 0.0
-    scan_buffer_size: 50 # 20
+    scan_buffer_size: 50 # 20 기존에서 수정
     scan_buffer_maximum_scan_distance: 12.0
     link_match_minimum_response_fine: 0.1
     link_scan_maximum_distance: 1.5
@@ -414,18 +407,17 @@ slam_toolbox:
     loop_match_minimum_response_fine: 0.45
 
     # Correlation Parameters - Correlation Parameters
-    correlation_search_space_dimension: 0.05
-    correlation_search_space_resolution: 0.001
-    correlation_search_space_smear_deviation: 0.01
-
+    correlation_search_space_dimension: 0.05 # SLAM 알고리즘이 현재 위치를 추정할 때 탐색할 공간의 범위
+    correlation_search_space_resolution: 0.01 # 탐색할 공간을 얼마나 세밀하게 나눌지 결정. 해상도가 높을수록(작은 값) 더 세밀한 검색이 가능하지만 계산 비용이 증가
+    correlation_search_space_smear_deviation: 0.1 # 데이터의 불확실성을 반영하여 탐색 공간을 부드럽게 함. 편차가 작을수록 불확실성이 감소
     # Correlation Parameters - Loop Closure Parameters
     loop_search_space_dimension: 8.0
-    loop_search_space_resolution: 0.05
-    loop_search_space_smear_deviation: 0.03
+    loop_search_space_resolution: 0.05 # 0.05 루프 클로저의 해상도를 높임
+    loop_search_space_smear_deviation: 0.03 # 0.03 편차 줄이기
 
     # Scan Matcher Parameters
-    distance_variance_penalty: 0.00005
-    angle_variance_penalty: 0.0001 
+    distance_variance_penalty: 0.00005 # 거리패널티 감소
+    angle_variance_penalty: 0.0001
 
     fine_search_angle_offset: 0.000349
     coarse_search_angle_offset: 0.0349
