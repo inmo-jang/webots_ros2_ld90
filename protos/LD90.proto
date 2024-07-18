@@ -7,6 +7,7 @@ EXTERNPROTO "./SickLms291.proto"
 EXTERNPROTO "./IntelRealSenseL515.proto"
 EXTERNPROTO "./LD90RearDistanceSensor.proto"
 EXTERNPROTO "./RPLidar.proto"
+EXTERNPROTO "./SalusSuite.proto"
 
 PROTO LD90 [
   field  SFVec3f     translation     0 0 0
@@ -18,7 +19,8 @@ PROTO LD90 [
   field  SFBool      supervisor      FALSE         # Is `Robot.supervisor`.
   field  SFBool      synchronization TRUE          # Is `Robot.synchronization`.
   field  SFBool      selfCollision   FALSE         # Is `Robot.selfCollision`.
-  field  MFNode      extensionSlotMainLIDAR   [ SickLms291 { } ]  # Extends the robot with new nodes in the extension slot.  
+  field  MFNode      extensionSlotMainLIDAR   [ SickLms291 { } ]  # Extends the robot with new nodes in the extension slot.
+  field  MFNode      bodySlot         [ SalusSuite { } ]                  # Extends the robot with new nodes located in the body.    
 ]
 {
   Robot {
@@ -56,7 +58,11 @@ PROTO LD90 [
         near 0.35 
         minRange 0.35 
         maxRange 5.000000      
-      }             
+      }        
+      Pose {
+        translation 0.037646 0 0.349
+        children IS bodySlot
+      }           
       IntelRealSenseL515 { # Front Lidar - L515
         translation 0.33 0 0.35  
         name "front_lidar"

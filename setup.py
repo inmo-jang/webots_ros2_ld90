@@ -8,6 +8,7 @@ data_files.append(('share/' + package_name + '/protos', ['protos/LD90RearDistanc
 data_files.append(('share/' + package_name + '/protos', ['protos/SickLms291.proto']))
 data_files.append(('share/' + package_name + '/protos', ['protos/RPLidar.proto']))
 data_files.append(('share/' + package_name + '/protos', ['protos/IntelRealSenseL515.proto']))
+data_files.append(('share/' + package_name + '/protos', ['protos/SalusSuite.proto']))
 data_files.append(('share/' + package_name + '/protos/meshes', ['protos/meshes/LD_Platform.STL']))
 data_files.append(('share/' + package_name + '/protos/meshes', ['protos/meshes/rplidar.dae']))
 data_files.append(('share/' + package_name + '/protos/textures', ['protos/textures/sick_lms291_roughness.jpg']))

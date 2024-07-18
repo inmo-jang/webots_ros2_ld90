@@ -1,6 +1,11 @@
 
 # Change Log
- 
+
+## 2024-07-18
+
+### Added 
+- Added a 360 camera called `SalusSuite`, which represents an inspection sensor suite. 
+
 ## 2024-07-04
   
 ### Added
