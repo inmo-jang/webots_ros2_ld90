@@ -12,9 +12,12 @@
 mkdir my_ros2_ws
 cd my_ros2_ws
 git clone https://github.com/inmo-jang/webots_ros2_ld90.git
-git clone https://github.com/cyberbotics/webots_ros2.git
 ```
-- Remove any unnecessary packages in `webots_ros2`, such as `webots_ros2_importer`
+
+```
+sudo apt-get install ros-humble-webots-ros2
+```
+
 
 ```
 colcon build
